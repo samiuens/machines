@@ -13,6 +13,7 @@
     username = "samiarda";
     homeDirectory = "/Users/samiarda";
     stateVersion = "24.11";
+    packages = pkgs.callPackage ./packages.nix {};
   };
   programs.home-manager.enable = true;
 }
