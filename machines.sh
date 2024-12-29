@@ -65,7 +65,7 @@ provision()
     if [ "$os" == "darwin" ]; then
         if [ -f /etc/samiarda/provision.part1 ]; then
             hostname=$(input "please provide the hostname for this machine: ")
-            if [ -f ./machines/$hostname ]; then
+            if [ -f ./systems/$hostname ]; then
               echo "no config exists, for the provided hostname..."
             fi
             [ -f /etc/nix/nix.conf ] && sudo rm /etc/nix/nix.conf
@@ -82,12 +82,12 @@ provision()
         fi
     else
         hostname=$(input "please provide the hostname for this machine: ")
-        if [ -f machines/$hostname ]; then
+        if [ -f ./systems/$hostname ]; then
           echo "no config exists, for the provided hostname..."
         fi
-        [ -f machines/$hostname/hardware-configuration.nix ] && rm machines/$hostname/hardware-configuration.nix
-        touch machines/$hostname/hardware-configuration.nix
-        nixos-generate-config --show-hardware-config > "./machines/$hostname/hardware-configuration.nix"
+        
+        touch ./systems/$hostname/hardware-configuration.nix
+        nixos-generate-config --show-hardware-config > "./systems/$hostname/hardware-configuration.nix"
         rebuild switch $hostname
     fi
 }
