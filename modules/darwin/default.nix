@@ -2,9 +2,9 @@
   imports =
     [
       ./system/defaults.nix
+      ./system/security.nix 
       
       ./brew.nix
-      ./security.nix
       ./users.nix
     ];
 }
