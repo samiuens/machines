@@ -75,7 +75,8 @@ provision()
             xcode-select --install
             read -n 1 -s -r -p "press any key to continue..."
             softwareupdate --install-rosetta --agree-to-license
-            sh <(curl -L https://nixos.org/nix/install)
+            curl -L https://nixos.org/nix/install -o nix.sh
+            sh nix.sh
             
             sudo mkdir /etc/samiarda && sudo touch /etc/samiarda/provision.part1
             echo "please restart the shell to activate nix..."
