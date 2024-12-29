@@ -11,4 +11,7 @@ with pkgs; [
   
   # security
   yubioath-flutter
+
+  # misc
+  git
 ]
