@@ -1,6 +1,8 @@
 { ... }: {
   imports =
     [
+      ./programs/1password.nix
+      
       ./system/bluetooth.nix
       ./system/boot.nix
       ./system/gnome.nix
@@ -9,7 +11,7 @@
       ./system/print.nix
       ./system/security.nix
       ./system/sound.nix
-
+      
       ./users.nix
     ];
 }

@@ -3,7 +3,6 @@
     [
       ./gui/gnome
 
-      ./programs/1password.nix
       ./programs/firefox.nix
       ./programs/ssh.nix
       
