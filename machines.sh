@@ -85,6 +85,8 @@ provision()
         if [ -f ./machines/$hostname ]; then
           echo "no config exists, for the provided hostname..."
         fi
+        [ -f ./machines/$hostname/hardware-configuration.nix ] && rm ./machines/$hostname/hardware-configuration.nix
+        touch ./machines/$hostname/hardware-configuration.nix
         nixos-generate-config --show-hardware-config > "./machines/$hostname/hardware-configuration.nix"
         rebuild switch $hostname
     fi
