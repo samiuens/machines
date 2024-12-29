@@ -10,7 +10,6 @@
       ./system/security.nix
       ./system/sound.nix
 
-      ./security.nix
       ./users.nix
     ];
 }
