@@ -1,5 +1,5 @@
 { pkgs, inputs, ...}: {
   nixpkgs.overlays = [
-    inputs.nix-vscode-extensions.overlays.default
+    inputs.vscode-extensions.overlays.default
   ];
 }

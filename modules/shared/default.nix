@@ -3,7 +3,7 @@
     [
       ./fonts.nix
       ./nix.nix
-      #./overlays.nix
+      ./overlays.nix
       ./users.nix
     ];
 }
