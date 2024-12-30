@@ -2,6 +2,7 @@
   imports =
     [
       ./programs/1password.nix
+      ./programs/coolercontrol.nix
       
       ./system/bluetooth.nix
       ./system/boot.nix
