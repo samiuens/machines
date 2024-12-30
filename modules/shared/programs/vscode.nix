@@ -36,6 +36,7 @@
       "terminal.integrated.fontFamily" = "'JetBrainsMono Nerd Font'";
       "telemetry.telemetryLevel" = "off";
       "window.zoomLevel" = 1;
+      "editor.fontSize" = 13;
     };
   };
 }
