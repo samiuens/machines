@@ -7,9 +7,10 @@
 
     darwin.url = "github:LnL7/nix-darwin";
     homebrew.url = "github:zhaofengli-wip/nix-homebrew";
+    vscode-extensions.url = "github:nix-community/nix-vscode-extensions";
   };
 
-  outputs = inputs@{ self, nixpkgs, home-manager, darwin, homebrew }: {
+  outputs = inputs@{ self, nixpkgs, home-manager, darwin, homebrew, vscode-extensions }: {
     nixosConfigurations.tsukuyomi = nixpkgs.lib.nixosSystem {
       system = "x86_64-linux";
       specialArgs = { inherit inputs; };
