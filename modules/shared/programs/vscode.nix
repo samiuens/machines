@@ -12,7 +12,7 @@
       pkief.material-icon-theme
 
       # language support
-      bbenoist.Nix
+      bbenoist.nix
 
       # formatting and ai
       esbenp.prettier-vscode
