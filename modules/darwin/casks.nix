@@ -7,7 +7,6 @@ _:
   "nextcloud"
 
   # development
-  "visual-studio-code"
   "gitkraken"
 
   # security

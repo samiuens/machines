@@ -6,7 +6,6 @@ with pkgs; [
   nextcloud-client
 
   # development
-  vscode
   gitkraken
   
   # security
