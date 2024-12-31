@@ -4,6 +4,7 @@ _:
   # prod
   "zen-browser"
   "obsidian"
+  "todoist"
   "nextcloud"
 
   # development
