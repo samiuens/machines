@@ -14,6 +14,9 @@ _:
   "1password"
   "yubico-authenticator"
 
+  # remote management
+  "rustdesk"
+
   # utils
   "aldente"
   "aerospace"
