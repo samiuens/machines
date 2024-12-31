@@ -12,6 +12,7 @@
       ./system/print.nix
       ./system/security.nix
       ./system/sound.nix
+      ./system/time.nix
       
       ./users.nix
     ];
