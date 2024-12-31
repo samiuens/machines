@@ -13,7 +13,7 @@
         center-new-windows = true;
       };
       "org/gnome/shell" = {
-        favorite-apps = ["org.gnome.Nautilus.desktop" "firefox.desktop" "todoist.desktop" "obsidian.desktop" "thunderbird.desktop" "Alacritty.desktop" "com.yubico.authenticator.desktop" "1password.desktop"];
+        favorite-apps = ["org.gnome.Nautilus.desktop" "firefox.desktop" "obsidian.desktop" "com.yubico.authenticator.desktop" "1password.desktop"];
         disable-user-extensions = false;
         enabled-extensions = ["system-monitor@gnome-shell-extensions.gcampax.github.com" "pano@elhan.io"];
       };
