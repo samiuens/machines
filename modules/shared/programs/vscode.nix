@@ -10,6 +10,7 @@
       # visuals
       daltonmenezes.aura-theme
       pkief.material-icon-theme
+      eamodio.gitlens
 
       # language support
       bbenoist.nix
