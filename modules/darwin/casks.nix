@@ -2,7 +2,7 @@ _:
 
 [
   # prod
-  "zen-browser"
+  "firefox"
   "obsidian"
   "todoist"
   "nextcloud"
