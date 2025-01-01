@@ -23,4 +23,5 @@ _:
   "linearmouse"
   "raycast"
   "karabiner-elements"
+  "pearcleaner"
 ]
