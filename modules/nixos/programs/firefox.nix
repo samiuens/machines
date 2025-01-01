@@ -5,6 +5,13 @@
       id = 0;
       name = "Sami Arda";
       isDefault = true;
+      extensions = with pkgs.nur.repos.rycee.firefox-addons; [
+        onepassword-password-manager
+        ublock-origin
+        clearurls
+        sponsorblock
+        darkreader
+      ];
       search = {
         force = true;
         default = "Brave Search";
