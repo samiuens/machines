@@ -87,10 +87,17 @@ provision()
           echo "no config exists, for the provided hostname..."
         fi
         
-        touch ./systems/$hostname/hardware-configuration.nix
+        rm -r ./systems/$hostname/hardware-configuration.nix
         nixos-generate-config --show-hardware-config > "./systems/$hostname/hardware-configuration.nix"
         rebuild switch $hostname
     fi
+}
+
+hardwareconfig()
+{
+    hostname=$(input "please provide the hostname for this machine: ")
+    rm -r ./systems/$hostname/hardware-configuration.nix
+    nixos-generate-config --show-hardware-config > "./systems/$hostname/hardware-configuration.nix"
 }
 
 sshkey()
@@ -105,9 +112,11 @@ if [ $# -eq 0 ]; then
     rebuild switch
 else
     case $1 in
+        switch) rebuild switch ;;
         update) update ;;
         clean) clean ;;
         provision) provision ;;
+        hardware) hardwareconfig ;;
         code) code . ;;
         cd) exit ;;
         *) echo "unknown function. please review the syntax!" ;;
