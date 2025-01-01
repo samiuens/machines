@@ -113,6 +113,7 @@ if [ $# -eq 0 ]; then
 else
     case $1 in
         switch) rebuild switch ;;
+        boot) rebuild boot ;;
         update) update ;;
         clean) clean ;;
         provision) provision ;;
