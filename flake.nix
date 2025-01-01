@@ -11,9 +11,10 @@
       url = "github:nix-community/NUR";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+    grub2-themes.url = "github:vinceliuice/grub2-themes";
   };
 
-  outputs = inputs@{ self, nixpkgs, home-manager, darwin, homebrew, vscode-extensions, nur }: {
+  outputs = inputs@{ self, nixpkgs, home-manager, darwin, homebrew, vscode-extensions, nur, grub2-themes }: {
     nixosConfigurations.tsukuyomi = nixpkgs.lib.nixosSystem {
       system = "x86_64-linux";
       specialArgs = { inherit inputs; };
@@ -26,6 +27,7 @@
           home-manager.backupFileExtension = "hm-backup";
         }
         nur.modules.nixos.default
+        grub2-themes.nixosModules.default
       ];
     };
 
