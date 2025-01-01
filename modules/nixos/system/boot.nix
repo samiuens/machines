@@ -1,8 +1,6 @@
-{ config, ...}: {  
-  #boot.loader.systemd-boot.enable = true;
+{ config, ...}: {
   boot.loader.grub = {
     enable = true;
-    version = 2;
     device = "nodev";
     efiSupport = true;
   };
