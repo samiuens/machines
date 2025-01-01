@@ -7,6 +7,11 @@ _:
   "todoist"
   "nextcloud"
 
+  # consume
+
+  # create
+  "libreoffice"
+
   # development
   "gitkraken"
 

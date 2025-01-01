@@ -6,11 +6,20 @@ with pkgs; [
   todoist-electron
   nextcloud-client
 
+  # consume
+
+  # create
+  libreoffice-qt6-fresh
+  hyphenDicts.de_DE
+
   # development
   gitkraken
   
   # security
   yubioath-flutter
+
+  # remote management
+  rustdesk-flutter
 
   # misc
   git
