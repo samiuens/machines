@@ -19,6 +19,7 @@ _:
   # security
   "1password"
   "yubico-authenticator"
+  "keepassxc"
 
   # remote management
   "rustdesk"

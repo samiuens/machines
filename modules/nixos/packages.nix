@@ -18,6 +18,7 @@ with pkgs; [
   
   # security
   yubioath-flutter
+  keepassxc
 
   # remote management
   rustdesk-flutter
