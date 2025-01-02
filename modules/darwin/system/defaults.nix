@@ -42,14 +42,22 @@
 
     dock = {
       # dock items
-      persistent-apps = [];
+      persistent-apps = [
+        "~/Applications/Firefox.app"
+        "~/Applications/Todoist.app"
+        "~/Applications/Obsidian.app"
+        "~/Applications/Yubico Authenticator.app"
+        "~/Applications/1Password.app"
+      ];
       persistent-others = [];
 
       # hide dock with no delay
       autohide = true;
       autohide-delay = 0.0;
-      # set tilesize to
+      # set tilesize to 24
       tilesize = 24;
+      # dock orientation to left
+      orientation = "left";
       # hide recent apps in dock
       show-recents = false;
       # minimize windows into their application icon
