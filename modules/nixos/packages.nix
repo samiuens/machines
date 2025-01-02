@@ -7,6 +7,7 @@ with pkgs; [
   nextcloud-client
 
   # consume
+  anki
 
   # create
   libreoffice-qt6-fresh

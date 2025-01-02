@@ -8,6 +8,7 @@ _:
   "nextcloud"
 
   # consume
+  "anki"
 
   # create
   "libreoffice"
