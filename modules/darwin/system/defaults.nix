@@ -43,11 +43,11 @@
     dock = {
       # dock items
       persistent-apps = [
-        "~/Applications/Firefox.app"
-        "~/Applications/Todoist.app"
-        "~/Applications/Obsidian.app"
-        "~/Applications/Yubico Authenticator.app"
-        "~/Applications/1Password.app"
+        "/Applications/Firefox.app"
+        "/Applications/Todoist.app"
+        "/Applications/Obsidian.app"
+        "/Applications/Yubico Authenticator.app"
+        "/Applications/1Password.app"
       ];
       persistent-others = [];
 
