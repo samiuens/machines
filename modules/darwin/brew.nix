@@ -8,6 +8,7 @@
     };
 
     taps = [
+      "buo/cask-upgrade"
       "nikitabobko/tap"
     ];
     brews = [
@@ -16,8 +17,7 @@
     ];
     casks = pkgs.callPackage ./casks.nix {};
     masApps = {
-      #"Clipboard Manager - PastePal" = 1503446680;
-      #"iFinance 5" = 1500241909;
+      "iFinance 5" = 1500241909;
     };
   };
 }
