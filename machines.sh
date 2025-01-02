@@ -61,6 +61,10 @@ generations()
 provision()
 {
     os=$(get_os)
+    hostname=$(input "please provide the hostname for this machine: ")
+    if [ -f ./systems/$hostname ]; then
+        echo "no config exists, for the provided hostname..."
+    fi
 
     if [ "$os" == "darwin" ]; then
         if [ -f /etc/samiarda/provision.part1 ]; then
@@ -75,18 +79,12 @@ provision()
             xcode-select --install
             read -n 1 -s -r -p "press any key to continue..."
             softwareupdate --install-rosetta --agree-to-license
-            curl -L https://nixos.org/nix/install -o nix.sh
-            sh nix.sh
-            
+            curl --proto '=https' --tlsv1.2 -sSf -L https://install.determinate.systems/nix | \
+                sh -s -- install --determinate
             sudo mkdir /etc/samiarda && sudo touch /etc/samiarda/provision.part1
             echo "please restart the shell to activate nix..."
         fi
     else
-        hostname=$(input "please provide the hostname for this machine: ")
-        if [ -f ./systems/$hostname ]; then
-          echo "no config exists, for the provided hostname..."
-        fi
-        
         rm -r ./systems/$hostname/hardware-configuration.nix
         nixos-generate-config --show-hardware-config > "./systems/$hostname/hardware-configuration.nix"
         rebuild switch $hostname
