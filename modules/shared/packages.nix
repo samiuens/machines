@@ -5,9 +5,8 @@ with pkgs; [
   git
 
   # programming languages
-  nodejs_23
-  corepack_23
+  nodejs
+  corepack_latest
   pnpm
-
-  jdk23
+  openjdk22
 ]
