@@ -1,6 +1,8 @@
-{ pkgs, ... }:
+{ pkgs }:
 
-with pkgs; [
+with pkgs;
+let shared-packages = import ../shared/packages.nix { inherit pkgs; }; in
+  shared-packages ++ [
   # prod
   obsidian
   todoist-electron
@@ -22,7 +24,4 @@ with pkgs; [
 
   # remote management
   rustdesk-flutter
-
-  # misc
-  git
 ]
