@@ -15,7 +15,7 @@ The hostnames of the workstations are named after the abilities of Sasuke from N
 ### applications
 
 - [ ] onepassword - authenticate
-- [ ] firefox - enroll sync
+- [ ] firefox - enroll sync & import [ublock config](https://github.com/samiuens/machines/blob/main/data/firefox/ublock.txt)
 - [ ] obsidian - sync vault
 - [ ] nextcloud - login and sync folder
 - [ ] todoist - login
@@ -23,7 +23,15 @@ The hostnames of the workstations are named after the abilities of Sasuke from N
 
 ### systems
 
-- **macOS:** manual adjustments through settings app (see [here](https://github.com/samiuens/machines/blob/main/docs/mac-manual.md))
+- **macOS:**
+
+  - manual adjustments of settings and finder (see [here](https://github.com/samiuens/machines/blob/main/docs/mac-manual.md))
+  - import firefox [profile](https://github.com/samiuens/machines/blob/main/data/firefox/user.js) & install [extensions](https://github.com/samiuens/machines/blob/main/docs/firefox-extensions.md)
+  - launch the following apps, give permissions and insert license key:
+    - aerospace
+    - aldente
+    - cleanshotx
+    - raycast
 
 [nixos]: https://nixos.org/
 [nix-darwin]: https://github.com/LnL7/nix-darwin
