@@ -68,7 +68,6 @@ provision()
 
     if [ "$os" == "darwin" ]; then
         if [ -f /etc/samiarda/provision.part1 ]; then
-            hostname=$(input "please provide the hostname for this machine: ")
             if [ -f ./systems/$hostname ]; then
               echo "no config exists, for the provided hostname..."
             fi
