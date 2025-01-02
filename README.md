@@ -25,7 +25,7 @@ The hostnames of the workstations are named after the abilities of Sasuke from N
 
 - **macOS:**
 
-  - manual adjustments of settings and finder (see [here](https://github.com/samiuens/machines/blob/main/docs/mac-manual.md))
+  - [manual adjustments](https://github.com/samiuens/machines/blob/main/docs/mac-manual.md) of settings and finder
   - import firefox [profile](https://github.com/samiuens/machines/blob/main/data/firefox/user.js) & install [extensions](https://github.com/samiuens/machines/blob/main/docs/firefox-extensions.md)
   - launch the following apps, give permissions and insert license key:
     - aerospace
