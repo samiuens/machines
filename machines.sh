@@ -30,6 +30,7 @@ update()
     if [ "$os" == "darwin" ]; then
         brew update
         brew upgrade
+        brew cu -a -y --cleanup --include-mas
     fi
 }
 
@@ -72,6 +73,7 @@ provision()
               echo "no config exists, for the provided hostname..."
             fi
             [ -f /etc/nix/nix.conf ] && sudo rm /etc/nix/nix.conf
+            update
             nix run nix-darwin --experimental-features 'nix-command flakes' -- switch --flake .#$hostname --show-trace
             sudo rm /etc/samiarda/provision.part1
         else
@@ -86,6 +88,7 @@ provision()
     else
         rm -r ./systems/$hostname/hardware-configuration.nix
         nixos-generate-config --show-hardware-config > "./systems/$hostname/hardware-configuration.nix"
+        update
         rebuild switch $hostname
     fi
 }
