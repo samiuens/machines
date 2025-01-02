@@ -8,9 +8,22 @@
 
 The hostnames of the workstations are named after the abilities of Sasuke from Naruto.
 
-## 🛫 post install:
+## 🛫 post install
 
 - Manual steps that must be initiated after installing the machine.
+
+### applications
+
+- [ ] onepassword - authenticate
+- [ ] firefox - enroll sync
+- [ ] obsidian - sync vault
+- [ ] nextcloud - login and sync folder
+- [ ] todoist - login
+- [ ] gitkraken - authenticate with github
+
+### systems
+
+- **macOS:** manual adjustments through settings app (see [here](https://github.com/samiuens/machines/blob/main/docs/mac-manual.md))
 
 [nixos]: https://nixos.org/
 [nix-darwin]: https://github.com/LnL7/nix-darwin
