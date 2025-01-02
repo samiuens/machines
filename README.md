@@ -1,6 +1,21 @@
-# samiarda's nixos, nix-darwin and home-manager configuration
+# ❄️ samiarda's [nixos], [nix-darwin] and [home-manager] configuration
 
-|   hostname  |            board            |               cpu              |  ram  |         primary gpu         | role | os  | status |
-| :---------: | :-------------------------: | :----------------------------: | :---: | :-------------------------: | :--: | :-: | :----: |
-| `tsukuyomi` | [Prime B550M-A (Wi-Fi)]     | [AMD Ryzen 7 2700X]            | 32GB  | [XFX Radeon RX 6600]        | 🖥️   | ❄️   | ✅     |
-| `amaterasu` | [Macbook Pro M1 13"]        | Apple M1 8-core CPU            | 8GB   | Apple M1 8-core GPU         | 💻️   | 🍏  | ✅     |
+|  hostname   |          board          |         cpu         | ram  |         gpu          |   role   | os  | status |
+| :---------: | :---------------------: | :-----------------: | :--: | :------------------: | :------: | :-: | :----: |
+| `tsukuyomi` | [Prime B550M-A (Wi-Fi)] | [AMD Ryzen 7 2700X] | 32GB | [XFX Radeon RX 6600] | 🖥️ + 🎭️ | ❄️  |   ✅   |
+|  `chidori`  |           ⤴️            |         ⤴️          |  ⤴️  |          ⤴️          | 🖥️ + 🎭️ | 🪟  |   ✅   |
+| `amaterasu` |  [Macbook Pro M1 13"]   | Apple M1 8-core CPU | 8GB  | Apple M1 8-core GPU  |   💻️    | 🍏  |   ✅   |
+
+The hostnames of the workstations are named after the abilities of Sasuke from Naruto.
+
+## 🛫 post install:
+
+- Manual steps that must be initiated after installing the machine.
+
+[nixos]: https://nixos.org/
+[nix-darwin]: https://github.com/LnL7/nix-darwin
+[home-manager]: https://github.com/nix-community/home-manager
+[Prime B550M-A (Wi-Fi)]: https://www.asus.com/us/motherboards-components/motherboards/prime/prime-b550m-a-wi-fi/
+[AMD Ryzen 7 2700X]: https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-2000-series/amd-ryzen-7-2700x.html
+[XFX Radeon RX 6600]: https://www.xfxforce.com/shop/xfx-speedster-swft-210-amd-radeon-tm-rx-6600-core
+[Macbook Pro M1 13"]: https://support.apple.com/en-us/111893
