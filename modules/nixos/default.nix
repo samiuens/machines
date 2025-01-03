@@ -3,6 +3,7 @@
     [
       ./programs/1password.nix
       ./programs/coolercontrol.nix
+      ./programs/virtualbox.nix
       
       ./system/bluetooth.nix
       ./system/boot.nix
