@@ -12,6 +12,7 @@ _:
 
   # create
   "libreoffice"
+  "geogebra"
 
   # development
   "gitkraken"

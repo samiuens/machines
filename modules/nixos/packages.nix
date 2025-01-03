@@ -14,6 +14,7 @@ let shared-packages = import ../shared/packages.nix { inherit pkgs; }; in
   # create
   libreoffice-qt6-fresh
   hyphenDicts.de_DE
+  geogebra6
 
   # development
   gitkraken
