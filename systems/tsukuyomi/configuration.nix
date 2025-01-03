@@ -11,7 +11,7 @@
   fileSystems."/mnt/shared" =
   { device = "/dev/disk/by-uuid/185E15755E154D3E";
     fsType = "ntfs-3g"; 
-    options = [ "rw" "uid=1000"];
+    options = [ "rw" "uid=1000", "x-gvfs-show"];
   };
 
   networking.hostName = "tsukuyomi";
