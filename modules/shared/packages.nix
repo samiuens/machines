@@ -8,5 +8,4 @@ with pkgs; [
   nodejs
   corepack_latest
   pnpm
-  openjdk22
 ]

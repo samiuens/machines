@@ -25,4 +25,7 @@ let shared-packages = import ../shared/packages.nix { inherit pkgs; }; in
 
   # remote management
   rustdesk-flutter
+
+  # programming languages
+  openjdk23
 ]
