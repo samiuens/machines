@@ -13,8 +13,9 @@ _:
 
     # create
     "cleanshot"
-    "libreoffice"
-    "libreoffice-language-pack"
+    "microsoft-word"
+    "microsoft-excel"
+    "microsoft-powerpoint"
 
     # development
     "gitkraken"
