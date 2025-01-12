@@ -2,7 +2,6 @@
   imports =
     [
       ./programs/aerospace
-      ./programs/firefox.nix
       ./programs/ssh.nix
       
       ../shared/programs
