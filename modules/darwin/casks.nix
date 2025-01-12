@@ -32,4 +32,5 @@ _:
     "aerospace"
     "linearmouse"
     "jordanbaird-ice"
+    "raycast"
 ]
