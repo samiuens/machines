@@ -7,6 +7,7 @@
       isDefault = true;
       extensions = with pkgs.nur.repos.rycee.firefox-addons; [
         onepassword-password-manager
+        languagetool
         ublock-origin
         sponsorblock
         darkreader
