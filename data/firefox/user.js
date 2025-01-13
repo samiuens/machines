@@ -1,1 +1,0 @@
-/nix/store/0qqn916ras3yhw8yzcfv9l9kr037dw8f-home-manager-files/.mozilla/firefox/samiarda/user.js
