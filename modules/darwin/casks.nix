@@ -13,6 +13,8 @@ _:
 
     # create
     "cleanshot"
+    "libreoffice"
+    "xournal++"
     "microsoft-word"
     "microsoft-excel"
     "microsoft-powerpoint"
