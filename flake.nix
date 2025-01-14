@@ -13,7 +13,6 @@
       url = "github:nix-community/NUR";
       inputs.nixpkgs.follows = "nixpkgs";
     };
-    #hyprland.url = "github:hyprwm/Hyprland";
   };
 
   outputs = inputs@{ self, nixpkgs, nixpkgs-darwin, lanzaboote, home-manager, darwin, homebrew, vscode-extensions, nur }: {
@@ -26,6 +25,7 @@
           inputs.vscode-extensions.overlays.default
         ];
       };
+
       specialArgs = { inherit inputs; };
       modules = [
         ./systems/tsukuyomi/configuration.nix
@@ -48,6 +48,7 @@
           inputs.vscode-extensions.overlays.default
         ];
       };
+
       specialArgs = { inherit inputs; };
       modules = [
         ./systems/amaterasu/configuration.nix
