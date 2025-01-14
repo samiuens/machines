@@ -14,6 +14,7 @@ let shared-packages = import ../shared/packages.nix { inherit pkgs; }; in
 
     # create
     flameshot
+    xournalpp
     libreoffice-qt6-fresh
     hyphenDicts.de_DE
     
