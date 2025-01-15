@@ -1,4 +1,4 @@
-{ config, pkgs, ...}: {
+{ config, pkgs, inputs, ...}: {
   imports =
     [
       ./gui/gnome
@@ -15,7 +15,7 @@
     username = "samiarda";
     homeDirectory = "/home/samiarda";
     stateVersion = "24.11";
-    packages = pkgs.callPackage ./packages.nix {};
+    packages = pkgs.callPackage ./packages.nix { inherit inputs; };
   };
   programs.home-manager.enable = true;
 }

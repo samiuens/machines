@@ -1,33 +1,31 @@
-{ pkgs }:
+{ pkgs, inputs }:
 
 with pkgs;
 let shared-packages = import ../shared/packages.nix { inherit pkgs; }; in
   shared-packages ++ [
-    # prod
+    # organisation
     obsidian
-    todoist-electron
     nextcloud-client
 
     # communication
-    tutanota-desktop
     ferdium
+    discord
 
-    # create
+    # creation
     flameshot
-    xournalpp
     libreoffice-qt6-fresh
     hyphenDicts.de_DE
-    
+    anki
+
+    # capture
+    zotero
+
+    # consume
+    inputs.zen-browser.packages."${system}".default
+
     # development
     gitkraken
 
-    # education
-    anki
-
     # security
     yubioath-flutter
-
-    # utilities
-    sbctl
-    dconf-editor
   ]
