@@ -21,7 +21,6 @@ let shared-packages = import ../shared/packages.nix { inherit pkgs; }; in
     zotero
 
     # consume
-    inputs.zen-browser.packages."${system}".default
 
     # development
     gitkraken

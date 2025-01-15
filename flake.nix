@@ -13,10 +13,9 @@
       url = "github:nix-community/NUR";
       inputs.nixpkgs.follows = "nixpkgs";
     };
-    zen-browser.url = "github:MarceColl/zen-browser-flake";
   };
 
-  outputs = inputs@{ self, nixpkgs, nixpkgs-darwin, lanzaboote, home-manager, darwin, homebrew, vscode-extensions, nur, zen-browser }: {
+  outputs = inputs@{ self, nixpkgs, nixpkgs-darwin, lanzaboote, home-manager, darwin, homebrew, vscode-extensions, nur }: {
     nixosConfigurations.tsukuyomi = nixpkgs.lib.nixosSystem {
       system = "x86_64-linux";
       pkgs = import nixpkgs { 
@@ -59,6 +58,7 @@
           home-manager.useGlobalPkgs = true;
           home-manager.useUserPackages = true;
           home-manager.backupFileExtension = "hm-backup";
+          home-manager.extraSpecialArgs = { inherit inputs; };
         }
         homebrew.darwinModules.nix-homebrew
         {
