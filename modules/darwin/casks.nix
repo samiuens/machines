@@ -1,35 +1,33 @@
 _:
 
 [
-    # prod
+    # organisation
     "firefox"
     "obsidian"
-    "todoist"
     "nextcloud"
 
     # communication
-    "tuta-mail"
     "ferdium"
+    "discord"
 
-    # create
+    # creation
     "cleanshot"
     "libreoffice"
-    "xournal++"
-    "microsoft-word"
-    "microsoft-excel"
-    "microsoft-powerpoint"
+    "anki"
+    
+    # capture
+    "zotero"
+
+    # consume
 
     # development
     "gitkraken"
-
-    # education
-    "anki"
 
     # security
     "1password"
     "yubico-authenticator"
 
-    # utilities
+    # misc
     "aldente"
     "aerospace"
     "linearmouse"
