@@ -45,6 +45,7 @@
       "telemetry.telemetryLevel" = "off";
       "window.zoomLevel" = 1;
       "editor.fontSize" = 13;
+      "javascript.updateImportsOnFileMove.enabled" = "always";
     };
   };
 }
