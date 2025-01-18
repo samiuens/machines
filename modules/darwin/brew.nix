@@ -11,7 +11,9 @@
       "buo/cask-upgrade"
       "nikitabobko/tap"
     ];
-    brews = [];
+    brews = [
+      "mas"
+    ];
     casks = pkgs.callPackage ./casks.nix {};
     masApps = {};
   };
