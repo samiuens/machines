@@ -4,6 +4,7 @@ with pkgs;
 let shared-packages = import ../shared/packages.nix { inherit pkgs; }; in
   shared-packages ++ [
     # organisation
+    todoist-electron
     obsidian
     nextcloud-client
 
@@ -27,4 +28,7 @@ let shared-packages = import ../shared/packages.nix { inherit pkgs; }; in
 
     # security
     yubioath-flutter
+
+    # system
+    dconf-editor
   ]

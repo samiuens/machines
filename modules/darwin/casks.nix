@@ -3,6 +3,7 @@ _:
 [
     # organisation
     "firefox"
+    "todoist"
     "obsidian"
     "nextcloud"
 
