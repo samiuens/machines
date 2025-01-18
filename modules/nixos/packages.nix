@@ -10,6 +10,7 @@ let shared-packages = import ../shared/packages.nix { inherit pkgs; }; in
 
     # communication
     ferdium
+    signal-desktop
     discord
 
     # creation

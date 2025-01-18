@@ -9,6 +9,7 @@ _:
 
     # communication
     "ferdium"
+    "signal"
     "discord"
 
     # creation
