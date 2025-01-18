@@ -24,6 +24,9 @@
         night-light-schedule-to = 6.25;
         night-light-temperature = 2700;
       };
+      "org/gnome/shell/extensions/just-perfection" = {
+        window-demands-attention-focus = true;
+      };
       "org/gnome/shell/extensions/pano" = {
         history-length = 150;
         play-audio-on-copy = false;
