@@ -24,6 +24,7 @@ _:
 
     # development
     "gitkraken"
+    "termius"
 
     # security
     "1password"
