@@ -26,6 +26,7 @@ let shared-packages = import ../shared/packages.nix { inherit pkgs; }; in
 
     # development
     gitkraken
+    termius
 
     # security
     yubioath-flutter
