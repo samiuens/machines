@@ -15,6 +15,9 @@
       "mas"
     ];
     casks = pkgs.callPackage ./casks.nix {};
-    masApps = {};
+    masApps = {
+      "iFinance 5" = 1500241909;
+      "Amphetamine" = 937984704;
+    };
   };
 }
