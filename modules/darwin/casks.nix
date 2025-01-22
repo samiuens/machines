@@ -14,11 +14,13 @@ _:
 
     # creation
     "cleanshot"
-    "libreoffice"
+    "microsoft-word"
+    "microsoft-excel"
+    "microsoft-powerpoint"
+    "microsoft-auto-update"
     "anki"
     
     # capture
-    "zotero"
 
     # consume
 
