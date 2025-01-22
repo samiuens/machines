@@ -31,7 +31,7 @@ The hostnames of the workstations are named after the abilities of Sasuke from N
     - import [user.js](https://github.com/samiuens/machines/blob/main/data/firefox/user.js) → add hostname to nextdns
     - login into firefox sync
     - install [firefox extensions](https://github.com/samiuens/machines/blob/main/docs/firefox-extensions.md) and import [ublock config](https://github.com/samiuens/machines/blob/main/data/firefox/ublock.txt)
-    - setup '[brave search](https://search.brave.com/)' as default search engine
+    - setup [brave search](https://search.brave.com/) as default search engine
   - launch the following apps, give permissions and insert license key:
     - aerospace
     - aldente
