@@ -6,7 +6,11 @@
 |  `chidori`  |           ⤴️            |         ⤴️          |  ⤴️  |          ⤴️          | 🖥️ + 🎭️ | 🪟  |   ✅   |
 | `amaterasu` |  [Macbook Pro M1 13"]   | Apple M1 8-core CPU | 8GB  | Apple M1 8-core GPU  |   💻️    | 🍏  |   ✅   |
 
-The hostnames of the workstations are named after the abilities of Sasuke from Naruto.
+## provision process
+
+- download the [this repo](https://github.com/samiuens/machines/archive/refs/heads/main.zip)
+- make `machines.sh` executable and run `./machines.sh provision`
+- follow the process and steps as described
 
 ## 🛫 post install
 
@@ -22,6 +26,11 @@ The hostnames of the workstations are named after the abilities of Sasuke from N
 - [ ] gitkraken - authenticate with github
 
 ### systems
+
+- **nixOS:**
+
+  - secure boot:
+    - […]
 
 - **macOS:**
 
