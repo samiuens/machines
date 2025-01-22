@@ -6,8 +6,6 @@
 |  `chidori`  |           ⤴️            |         ⤴️          |  ⤴️  |          ⤴️          | 🖥️ + 🎭️ | 🪟  |   ✅   |
 | `amaterasu` |  [Macbook Pro M1 13"]   | Apple M1 8-core CPU | 8GB  | Apple M1 8-core GPU  |   💻️    | 🍏  |   ✅   |
 
-The hostnames of the workstations are named after the abilities of Sasuke from Naruto.
-
 ## 🛫 post install
 
 - Manual steps that must be initiated after installing the machine.
