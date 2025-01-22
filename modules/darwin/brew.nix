@@ -11,9 +11,7 @@
       "buo/cask-upgrade"
       "nikitabobko/tap"
     ];
-    brews = [
-      "mas"
-    ];
+    brews = [];
     casks = pkgs.callPackage ./casks.nix {};
     masApps = {
       "iFinance 5" = 1500241909;
