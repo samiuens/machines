@@ -6,7 +6,7 @@
 |  `chidori`  |           ⤴️            |         ⤴️          |  ⤴️  |          ⤴️          | 🖥️ + 🎭️ | 🪟  |   ✅   |
 | `amaterasu` |  [Macbook Pro M1 13"]   | Apple M1 8-core CPU | 8GB  | Apple M1 8-core GPU  |   💻️    | 🍏  |   ✅   |
 
-## provision process
+## ⚙️ provision process
 
 - download the [this repo](https://github.com/samiuens/machines/archive/refs/heads/main.zip)
 - make `machines.sh` executable and run `./machines.sh provision`
@@ -16,7 +16,7 @@
 
 - Manual steps that must be initiated after installing the machine.
 
-### applications
+### 🍏 applications
 
 - [ ] onepassword - authenticate
 - [ ] firefox - enroll sync & import [ublock config](https://github.com/samiuens/machines/blob/main/data/firefox/ublock.txt)
@@ -25,7 +25,7 @@
 - [ ] todoist - login
 - [ ] gitkraken - authenticate with github
 
-### systems
+### 🖥️ systems
 
 - **nixOS:**
 
