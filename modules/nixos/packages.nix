@@ -32,4 +32,5 @@ let shared-packages = import ../shared/packages.nix { inherit pkgs; }; in
 
     # system
     dconf-editor
+    rpi-imager
   ]

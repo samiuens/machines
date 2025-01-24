@@ -38,4 +38,5 @@ _:
     "linearmouse"
     "jordanbaird-ice"
     "raycast"
+    "raspberry-pi-imager"
 ]
