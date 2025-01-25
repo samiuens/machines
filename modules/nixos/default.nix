@@ -9,6 +9,7 @@
       ./system/bluetooth.nix
       ./system/boot.nix
       ./system/gnome.nix
+      ./system/hyprland.nix
       ./system/locale.nix
       ./system/networking.nix
       ./system/print.nix
