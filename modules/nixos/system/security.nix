@@ -4,7 +4,8 @@ let
   nextDnsProfileId = "2ae161";
 in { 
   services.resolved = {
-    enable = true;
+    #enable = true;
+    enable = false;
     extraConfig = ''
       [Resolve]
       DNS=45.90.28.0#${config.networking.hostName}-${nextDnsProfileId}.dns.nextdns.io

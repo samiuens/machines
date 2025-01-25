@@ -34,6 +34,11 @@
         };
       };
       settings = {
+        # PREF: set DoH provider and enforce it
+        #"network.trr.uri" = "https://dns.nextdns.io/a8653e";
+        #"network.trr.mode" = 3;
+        "network.trr.mode" = 5;
+
         ### ---
         ### SECTION: Fastfox
         ### ---
@@ -239,10 +244,6 @@
         # PREF: enable HTTPS-Only Mode
         "dom.security.https_only_mode" = true;
         "dom.security.https_only_mode_error_page_user_suggestions" = true;
-
-        # PREF: set DoH provider and enforce it
-        "network.trr.uri" = "https://dns.nextdns.io/a8653e";
-        "network.trr.mode" = 3;
 
         "layout.spellcheckDefault" = 0;
 
