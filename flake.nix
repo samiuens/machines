@@ -13,9 +13,10 @@
       url = "github:nix-community/NUR";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+    hyprland.url = "github:hyprwm/Hyprland";
   };
 
-  outputs = inputs@{ self, nixpkgs, nixpkgs-darwin, lanzaboote, home-manager, darwin, homebrew, vscode-extensions, nur }: {
+  outputs = inputs@{ self, nixpkgs, nixpkgs-darwin, lanzaboote, home-manager, darwin, homebrew, vscode-extensions, nur, hyprland }: {
     nixosConfigurations.tsukuyomi = nixpkgs.lib.nixosSystem {
       system = "x86_64-linux";
       pkgs = import nixpkgs { 

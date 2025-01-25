@@ -2,6 +2,7 @@
   imports =
     [
       ./gui/gnome
+      ./gui/hyprland
 
       ./programs/firefox.nix
       ./programs/ssh.nix
