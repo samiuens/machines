@@ -1,5 +1,5 @@
 {
-  description = "darwin configuration";
+  description = "samiarda's machine configuration";
 
   inputs = {
     determinate.url = "https://flakehub.com/f/DeterminateSystems/determinate/0.1";
