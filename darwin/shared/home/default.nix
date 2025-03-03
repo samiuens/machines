@@ -3,6 +3,7 @@
     [
       ../apps/aerospace
       ../apps/firefox.nix
+      ../apps/karabiner.nix
       ../apps/kitty.nix
       ../apps/ssh.nix
       ./files.nix

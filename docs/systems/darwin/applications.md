@@ -23,3 +23,4 @@
 - [ ] **AlDente:** Activate license
 - [ ] **CleanShot:** Activate license
 - [ ] **LinearMouse:** Disable mouse acceleration
+- [ ] **Karabiner Elements:** Grant permissions
