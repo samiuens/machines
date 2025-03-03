@@ -12,5 +12,5 @@
 [AMD Ryzen 7 2700X]: https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-2000-series/amd-ryzen-7-2700x.html
 [XFX Radeon RX 6600]: https://www.xfxforce.com/shop/xfx-speedster-swft-210-amd-radeon-tm-rx-6600-core
 [Macbook Pro M1 13"]: https://support.apple.com/en-us/111893
-[🍏 (guide)]: https://github.com/samiuens/machines/blob/main/docs/systems/darwin.md
-[🪟 (guide)]: https://github.com/samiuens/machines/blob/main/docs/systems/windows.md
+[🍏 (guide)]: https://github.com/samiuens/machines/blob/master/docs/systems/darwin.md
+[🪟 (guide)]: https://github.com/samiuens/machines/blob/master/docs/systems/windows.md
