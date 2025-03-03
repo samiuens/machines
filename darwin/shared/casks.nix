@@ -50,4 +50,5 @@ _:
   "jordanbaird-ice"
   "karabiner-elements"
   "pearcleaner"
+  "raycast"
 ]
