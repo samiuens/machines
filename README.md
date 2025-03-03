@@ -2,8 +2,8 @@
 
 | hostname |         system          |         cpu         | ram  |         gpu         | role |      os      | status |
 | :------: | :---------------------: | :-----------------: | :--: | :-----------------: | :--: | :----------: | :----: |
-|   `1`    |  [Macbook Pro M1 13"]   | Apple M1 8-core CPU | 8GB  | Apple M1 8-core GPU | 💻️  | [🍏 (guide)] |   ✅   |
-|   `2`    | [Prime B550M-A (Wi-Fi)] |  AMD Ryzen 7 2700X  | 32GB | XFX Radeon RX 6600  |  🖥️  | [🪟 (guide)] |   ✅   |
+|  `kaya`  |  [Macbook Pro M1 13"]   | Apple M1 8-core CPU | 8GB  | Apple M1 8-core GPU | 💻️  | [🍏 (guide)] |   ✅   |
+|  `dag`   | [Prime B550M-A (Wi-Fi)] |  AMD Ryzen 7 2700X  | 32GB | XFX Radeon RX 6600  |  🖥️  | [🪟 (guide)] |   ✅   |
 
 [nixos]: https://nixos.org/
 [nix-darwin]: https://github.com/LnL7/nix-darwin
@@ -14,3 +14,10 @@
 [Macbook Pro M1 13"]: https://support.apple.com/en-us/111893
 [🍏 (guide)]: https://github.com/samiuens/machines/blob/master/docs/systems/darwin.md
 [🪟 (guide)]: https://github.com/samiuens/machines/blob/master/docs/systems/windows.md
+
+## 🛬 Provision Process
+
+- download [this repo](https://github.com/samiuens/machines)
+- make `run.sh` executable
+- run it with `provision`, followed with the wanted hostname _(darwin + linux only!)_
+- look into the os specific guide for the following steps
