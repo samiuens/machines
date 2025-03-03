@@ -1,13 +1,6 @@
 # 🚨 System
 
-- [ ] [Manual system settings](#️-manual-system-settings)
-- [ ] **Raycast:** Load [config]()
-- [ ] **AlDente:** Activate license
-- [ ] **CleanShot:** Activate license
-
-## ⚙️ Manual system settings
-
-- the following settings need to be set manually, as they don't exist in nix-darwin:
+- The following system settings need to be set manually, as they don't exist in [nix-darwin](https://github.com/LnL7/nix-darwin):
 
 ### Network
 
