@@ -14,17 +14,16 @@
       url = "github:nix-community/home-manager";
       inputs.nixpkgs.follows = "nixpkgs";
     };
-    firefox-darwin.url = "github:bandithedoge/nixpkgs-firefox-darwin";
   };
 
-  outputs = inputs@{ self, determinate, fh, nixpkgs, darwin, brew, home-manager, firefox-darwin }: {
+  outputs = inputs@{ self, determinate, fh, nixpkgs, darwin, brew, home-manager }: {
     darwinConfigurations = {
       "kaya" = darwin.lib.darwinSystem {
         specialArgs =
           {
             inherit inputs;
             hostname = "kaya";
-            username = "suensay";
+            username = "samiuensay";
             platform = "aarch64-darwin";
           };
         modules = [
