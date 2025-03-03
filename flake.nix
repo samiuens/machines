@@ -19,11 +19,11 @@
 
   outputs = inputs@{ self, determinate, fh, nixpkgs, darwin, brew, home-manager, firefox-darwin }: {
     darwinConfigurations = {
-      "amaterasu" = darwin.lib.darwinSystem {
+      "kaya" = darwin.lib.darwinSystem {
         specialArgs =
           {
             inherit inputs;
-            hostname = "amaterasu";
+            hostname = "kaya";
             username = "suensay";
             platform = "aarch64-darwin";
           };
