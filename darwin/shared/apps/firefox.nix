@@ -1,4 +1,10 @@
-{ lib, username, ... }: {
+{ lib, username, hostname, ... }: 
+ let 
+  extraSettings = {
+    "network.trr.uri" = "https://dns.nextdns.io/4233b4/${hostname}";
+    "identity.fxaccounts.account.device.name" = hostname;
+  };
+ in {
   home.activation.firefoxProfile = lib.hm.dag.entryAfter [ "writeBoundry" ] ''
     run mv $HOME/Library/Application\ Support/Firefox/profiles.ini $HOME/Library/Application\ Support/Firefox/profiles.hm
     run cp $HOME/Library/Application\ Support/Firefox/profiles.hm $HOME/Library/Application\ Support/Firefox/profiles.ini
@@ -15,11 +21,11 @@
       isDefault = true;
       userChrome = builtins.readFile ../../../configs/firefox/userChrome.css;
       userContent = builtins.readFile ../../../configs/firefox/userContent.css;
-      settings = {
+      settings = extraSettings {
         # PREF: set DoH provider and enforce it
         #"network.trr.uri" = "https://dns.nextdns.io/a8653e";
-        #"network.trr.mode" = 3;
-        "network.trr.mode" = 5;
+        "network.trr.mode" = 3;
+        #"network.trr.mode" = 5;
 
         # native firefox vertical tabs
         "sidebar.revamp" = true;
