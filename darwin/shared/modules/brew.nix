@@ -15,6 +15,7 @@
       "mas"
       "docker-compose"
       "mkcert"
+      "nss" # certutil, required for firefox
     ];
     casks = pkgs.callPackage ../casks.nix {};
     masApps = {
