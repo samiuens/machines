@@ -14,6 +14,7 @@
     brews = [
       "mas"
       "docker-compose"
+      "mkcert"
     ];
     casks = pkgs.callPackage ../casks.nix {};
     masApps = {
