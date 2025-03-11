@@ -6,6 +6,7 @@
 
 - activate: firewall
   - enable: "stealth mode"
+- create [nextdns profile](https://apple.nextdns.io/)
 
 ### Battery
 
