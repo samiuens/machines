@@ -12,6 +12,7 @@
       "nikitabobko/tap"
     ];
     brews = [
+      "openssh"
       "mas"
       "docker-compose"
       "mkcert"
