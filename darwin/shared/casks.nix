@@ -38,7 +38,6 @@ _:
   # business
   "google-chrome"
   "signal"
-  "bitwarden"
 
   # wm
   "aerospace"
