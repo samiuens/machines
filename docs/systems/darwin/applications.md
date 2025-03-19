@@ -7,6 +7,7 @@
 - [ ] **1Password:** Login into personal vault
 - [ ] **Bitwarden:** Login into business vault
 - [ ] **Firefox:** Join sync
+- [ ] **Google Chrome:** Add work profiles
 - [ ] **NextCloud:** Login and start folder sync
 - [ ] **Obsidian:** Vault synchronization
 - [ ] **Fantastical:** Add accounts _(webdav + google)_
