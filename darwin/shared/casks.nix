@@ -38,6 +38,7 @@ _:
   # business
   "google-chrome"
   "signal"
+  "figma"
 
   # wm
   "aerospace"
