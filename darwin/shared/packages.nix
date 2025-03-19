@@ -15,6 +15,7 @@ with pkgs; [
   # global nodejs packages
   nodemon
   nodePackages_latest.ts-node
+  nestcli
 
   # package managers
   fh
