@@ -3,6 +3,7 @@ _:
 [
   # coordination
   "nextcloud"
+  "fantastical"
 
   # communication
   "ferdium"
