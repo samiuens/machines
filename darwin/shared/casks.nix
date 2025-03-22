@@ -3,8 +3,7 @@ _:
 [
   # coordination
   "nextcloud"
-  "fantastical"
-  "todoist"
+  "amie"
 
   # communication
   "ferdium"
