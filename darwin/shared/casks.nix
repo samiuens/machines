@@ -7,7 +7,7 @@ _:
 
   # communication
   "ferdium"
-  "proton-mail"
+  "proton-mail-bridge"
 
   # create
   "microsoft-word"
