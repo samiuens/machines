@@ -5,6 +5,8 @@ with pkgs; [
   jetbrains.idea-ultimate
   jetbrains.pycharm-professional
   jetbrains.webstorm
+  jetbrains.goland
+  jetbrains.datagrip
   vscode
 
   # developer frameworks
