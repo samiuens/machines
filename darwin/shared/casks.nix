@@ -25,7 +25,6 @@ _:
   "postman"
   "termius"
   "gitkraken"
-  "dbeaver-community"
   "docker"
 
   # security
