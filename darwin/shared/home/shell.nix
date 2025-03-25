@@ -9,6 +9,7 @@
 
       shellAliases = {
         config = "cd ~/machines && ./run.sh $1";
+        dev = "cd ~/dev";
       };
       oh-my-zsh = {
         enable = true;
