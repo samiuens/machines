@@ -22,7 +22,8 @@
       "cmd+7" = "goto_tab 7";
       "cmd+8" = "goto_tab 8";
       "cmd+9" = "goto_tab 9";
-      "cmd+t" = "new_window_with_cwd";
+      "cmd+w" = "close_tab";
+      "cmd+t" = "new_tab_with_cwd";
     };
   };
 }
