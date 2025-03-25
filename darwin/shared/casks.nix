@@ -32,6 +32,7 @@ _:
   "1password-cli"
   "yubico-authenticator"
   "keepassxc"
+  "protonvpn"
 
   # business
   "google-chrome"
