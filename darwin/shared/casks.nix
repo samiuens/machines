@@ -18,7 +18,7 @@ _:
   "cleanshot"
 
   # consume
-  "reader"
+  "arc"
   "firefox"
 
   # development
