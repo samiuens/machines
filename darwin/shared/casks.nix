@@ -13,6 +13,7 @@ _:
   "microsoft-word"
   "microsoft-excel"
   "microsoft-powerpoint"
+  "microsoft-outlook"
   "obsidian"
   "remnote"
   "cleanshot"
@@ -32,7 +33,6 @@ _:
   "1password-cli"
   "yubico-authenticator"
   "keepassxc"
-  "protonvpn"
 
   # business
   "google-chrome"
@@ -41,7 +41,8 @@ _:
 
   # wm
   "aerospace"
-
+  "alt-tab"
+  
   # tools
   "aldente"
   "linearmouse"
