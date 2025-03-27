@@ -4,6 +4,7 @@ _:
   # coordination
   "nextcloud"
   "fantastical"
+  "notion"
 
   # communication
   "ferdium"
@@ -17,6 +18,7 @@ _:
   "obsidian"
   "remnote"
   "cleanshot"
+  "anki"
 
   # consume
   "arc"
