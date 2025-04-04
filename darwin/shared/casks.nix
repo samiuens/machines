@@ -2,9 +2,9 @@ _:
 
 [
   # coordination
-  "nextcloud"
   "fantastical"
   "notion"
+  "google-drive"
 
   # communication
   "ferdium"
@@ -29,12 +29,14 @@ _:
   "termius"
   "gitkraken"
   "docker"
+  "dbeaver-community"
 
   # security
   "1password"
   "1password-cli"
   "yubico-authenticator"
   "keepassxc"
+  "cryptomator"
 
   # business
   "google-chrome"
