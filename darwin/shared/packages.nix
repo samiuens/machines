@@ -24,7 +24,6 @@ with pkgs; [
   pnpm
 
   # terminal tools
-  neovim
   tmux
 
   # version control

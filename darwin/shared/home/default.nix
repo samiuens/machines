@@ -5,6 +5,7 @@
       ../apps/firefox.nix
       ../apps/karabiner.nix
       ../apps/kitty.nix
+      ../apps/nixvim.nix
       ../apps/ssh.nix
       ./files.nix
       ./shell.nix
