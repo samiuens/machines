@@ -1,6 +1,8 @@
 { ... }: {
   imports =
     [
+      ./apps/nixvim.nix
+
       ./modules/brew.nix
       ./modules/fonts.nix
       ./modules/hm.nix
