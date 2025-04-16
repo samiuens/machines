@@ -1,0 +1,1007 @@
+{
+  "__VERSION__": "214",
+  "Main": {
+    "Controls": [
+      {
+        "Calibration": [
+          [
+            10,
+            0
+          ],
+          [
+            20,
+            448
+          ],
+          [
+            30,
+            846
+          ],
+          [
+            40,
+            1214
+          ],
+          [
+            50,
+            1566
+          ],
+          [
+            60,
+            1914
+          ],
+          [
+            70,
+            2155
+          ],
+          [
+            80,
+            2445
+          ],
+          [
+            90,
+            2655
+          ],
+          [
+            100,
+            2974
+          ]
+        ],
+        "Enable": true,
+        "ForceApply": false,
+        "Identifier": "/lpc/nct6798d/control/1",
+        "IsHidden": false,
+        "ManualControl": false,
+        "ManualControlValue": 50,
+        "MinimumPercent": 0,
+        "Name": "Fan #2",
+        "NickName": "CPU Fan",
+        "PairedFanSensor": {
+          "Identifier": "/lpc/nct6798d/fan/1",
+          "IsHidden": false,
+          "Name": "Fan #2",
+          "NickName": "Fan #2"
+        },
+        "SelectedCommandStepDown": 8.0,
+        "SelectedCommandStepUp": 8.0,
+        "SelectedFanCurve": {
+          "CommandMode": 0,
+          "IgnoreHysteresisAtLimits": true,
+          "IsHidden": false,
+          "MaximumCommand": 100,
+          "MaximumTemperature": 90.0,
+          "MinimumTemperature": 20.0,
+          "Name": "CPU-Kühler",
+          "OneWayHysteresis": false,
+          "Points": [
+            "35,20",
+            "50,40",
+            "65,60",
+            "80,80",
+            "90,100"
+          ],
+          "SelectedHysteresis": 2.0,
+          "SelectedResponseTime": 1,
+          "SelectedTempSource": {
+            "Identifier": "Mix/Average: CPU + GPU",
+            "IsHidden": false,
+            "Name": "Average: CPU + GPU",
+            "SelectedMixFunction": 0,
+            "SelectedSensors": [
+              {
+                "Identifier": "/amdcpu/0/temperature/0",
+                "IsHidden": false,
+                "Name": "Core (Tctl)",
+                "NickName": "Core (Tctl)"
+              },
+              {
+                "Identifier": "ADLX/AMD Radeon RX 6600/3328/temp/GPU",
+                "IsHidden": false,
+                "Name": "GPU",
+                "NickName": "GPU"
+              }
+            ]
+          }
+        },
+        "SelectedOffset": 0,
+        "SelectedStart": 19,
+        "SelectedStop": 16
+      },
+      {
+        "Calibration": [
+          [
+            0,
+            0
+          ],
+          [
+            10,
+            867
+          ],
+          [
+            20,
+            1143
+          ],
+          [
+            30,
+            1530
+          ],
+          [
+            40,
+            1892
+          ],
+          [
+            50,
+            2168
+          ],
+          [
+            60,
+            2453
+          ],
+          [
+            70,
+            2679
+          ],
+          [
+            80,
+            2894
+          ],
+          [
+            90,
+            3075
+          ],
+          [
+            100,
+            3366
+          ]
+        ],
+        "Enable": false,
+        "ForceApply": false,
+        "Identifier": "ADLX/AMD Radeon RX 6600/3328/control",
+        "IsHidden": false,
+        "ManualControl": false,
+        "ManualControlValue": 0,
+        "MinimumPercent": 0,
+        "Name": "Control 1 - AMD Radeon RX 6600",
+        "NickName": "AMD Radeon RX 6600",
+        "PairedFanSensor": {
+          "Identifier": "ADLX/AMD Radeon RX 6600/3328/fan",
+          "IsHidden": false,
+          "Name": "Fan 1 - AMD Radeon RX 6600",
+          "NickName": "Fan 1 - AMD Radeon RX 6600"
+        },
+        "SelectedCommandStepDown": 8.0,
+        "SelectedCommandStepUp": 8.0,
+        "SelectedFanCurve": null,
+        "SelectedOffset": 0,
+        "SelectedStart": 9,
+        "SelectedStop": 6
+      },
+      {
+        "Calibration": [
+          [
+            0,
+            0
+          ],
+          [
+            10,
+            694
+          ],
+          [
+            30,
+            695
+          ],
+          [
+            40,
+            805
+          ],
+          [
+            50,
+            986
+          ],
+          [
+            60,
+            1145
+          ],
+          [
+            70,
+            1291
+          ],
+          [
+            80,
+            1428
+          ],
+          [
+            90,
+            1549
+          ],
+          [
+            100,
+            1692
+          ]
+        ],
+        "Enable": true,
+        "ForceApply": false,
+        "Identifier": "CorsairLink/CorsairLink/\\\\?\\hid#vid_1b1c&pid_0c10#7&36184bfb&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}/SpeedController/0",
+        "IsHidden": false,
+        "ManualControl": false,
+        "ManualControlValue": 50,
+        "MinimumPercent": 0,
+        "Name": "Commander PRO (100500A2040B1817) Fan #1",
+        "NickName": "Front Fan #1",
+        "PairedFanSensor": {
+          "Identifier": "CorsairLink/CorsairLink/\\\\?\\hid#vid_1b1c&pid_0c10#7&36184bfb&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}/SpeedSensor/0",
+          "IsHidden": false,
+          "Name": "Commander PRO (100500A2040B1817) Fan #1",
+          "NickName": "Commander PRO (100500A2040B1817) Fan #1"
+        },
+        "SelectedCommandStepDown": 8.0,
+        "SelectedCommandStepUp": 8.0,
+        "SelectedFanCurve": {
+          "CommandMode": 0,
+          "IgnoreHysteresisAtLimits": true,
+          "IsHidden": false,
+          "MaximumCommand": 100,
+          "MaximumTemperature": 90.0,
+          "MinimumTemperature": 20.0,
+          "Name": "Pull-Konfiguration",
+          "OneWayHysteresis": false,
+          "Points": [
+            "30,30",
+            "45,40",
+            "60,60",
+            "75,80",
+            "90,100"
+          ],
+          "SelectedHysteresis": 3.0,
+          "SelectedResponseTime": 3,
+          "SelectedTempSource": {
+            "Identifier": "Mix/Average: CPU + GPU",
+            "IsHidden": false,
+            "Name": "Average: CPU + GPU",
+            "SelectedMixFunction": 0,
+            "SelectedSensors": [
+              {
+                "Identifier": "/amdcpu/0/temperature/0",
+                "IsHidden": false,
+                "Name": "Core (Tctl)",
+                "NickName": "Core (Tctl)"
+              },
+              {
+                "Identifier": "ADLX/AMD Radeon RX 6600/3328/temp/GPU",
+                "IsHidden": false,
+                "Name": "GPU",
+                "NickName": "GPU"
+              }
+            ]
+          }
+        },
+        "SelectedOffset": 0,
+        "SelectedStart": 9,
+        "SelectedStop": 6
+      },
+      {
+        "Calibration": [
+          [
+            0,
+            0
+          ],
+          [
+            10,
+            690
+          ],
+          [
+            20,
+            698
+          ],
+          [
+            30,
+            700
+          ],
+          [
+            40,
+            820
+          ],
+          [
+            50,
+            996
+          ],
+          [
+            60,
+            1172
+          ],
+          [
+            70,
+            1334
+          ],
+          [
+            80,
+            1468
+          ],
+          [
+            90,
+            1602
+          ],
+          [
+            100,
+            1757
+          ]
+        ],
+        "Enable": true,
+        "ForceApply": false,
+        "Identifier": "CorsairLink/CorsairLink/\\\\?\\hid#vid_1b1c&pid_0c10#7&36184bfb&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}/SpeedController/1",
+        "IsHidden": false,
+        "ManualControl": false,
+        "ManualControlValue": 50,
+        "MinimumPercent": 0,
+        "Name": "Commander PRO (100500A2040B1817) Fan #2",
+        "NickName": "Front Fan #2",
+        "PairedFanSensor": {
+          "Identifier": "CorsairLink/CorsairLink/\\\\?\\hid#vid_1b1c&pid_0c10#7&36184bfb&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}/SpeedSensor/1",
+          "IsHidden": false,
+          "Name": "Commander PRO (100500A2040B1817) Fan #2",
+          "NickName": "Commander PRO (100500A2040B1817) Fan #2"
+        },
+        "SelectedCommandStepDown": 8.0,
+        "SelectedCommandStepUp": 8.0,
+        "SelectedFanCurve": {
+          "CommandMode": 0,
+          "IgnoreHysteresisAtLimits": true,
+          "IsHidden": false,
+          "MaximumCommand": 100,
+          "MaximumTemperature": 90.0,
+          "MinimumTemperature": 20.0,
+          "Name": "Pull-Konfiguration",
+          "OneWayHysteresis": false,
+          "Points": [
+            "30,30",
+            "45,40",
+            "60,60",
+            "75,80",
+            "90,100"
+          ],
+          "SelectedHysteresis": 3.0,
+          "SelectedResponseTime": 3,
+          "SelectedTempSource": {
+            "Identifier": "Mix/Average: CPU + GPU",
+            "IsHidden": false,
+            "Name": "Average: CPU + GPU",
+            "SelectedMixFunction": 0,
+            "SelectedSensors": [
+              {
+                "Identifier": "/amdcpu/0/temperature/0",
+                "IsHidden": false,
+                "Name": "Core (Tctl)",
+                "NickName": "Core (Tctl)"
+              },
+              {
+                "Identifier": "ADLX/AMD Radeon RX 6600/3328/temp/GPU",
+                "IsHidden": false,
+                "Name": "GPU",
+                "NickName": "GPU"
+              }
+            ]
+          }
+        },
+        "SelectedOffset": 0,
+        "SelectedStart": 9,
+        "SelectedStop": 6
+      },
+      {
+        "Calibration": [
+          [
+            0,
+            0
+          ],
+          [
+            10,
+            691
+          ],
+          [
+            20,
+            692
+          ],
+          [
+            30,
+            696
+          ],
+          [
+            40,
+            704
+          ],
+          [
+            50,
+            793
+          ],
+          [
+            60,
+            895
+          ],
+          [
+            70,
+            986
+          ],
+          [
+            80,
+            1070
+          ],
+          [
+            90,
+            1150
+          ],
+          [
+            100,
+            1225
+          ]
+        ],
+        "Enable": true,
+        "ForceApply": false,
+        "Identifier": "CorsairLink/CorsairLink/\\\\?\\hid#vid_1b1c&pid_0c10#7&36184bfb&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}/SpeedController/2",
+        "IsHidden": false,
+        "ManualControl": false,
+        "ManualControlValue": 50,
+        "MinimumPercent": 0,
+        "Name": "Commander PRO (100500A2040B1817) Fan #3",
+        "NickName": "Top Fan #1",
+        "PairedFanSensor": {
+          "Identifier": "CorsairLink/CorsairLink/\\\\?\\hid#vid_1b1c&pid_0c10#7&36184bfb&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}/SpeedSensor/2",
+          "IsHidden": false,
+          "Name": "Commander PRO (100500A2040B1817) Fan #3",
+          "NickName": "Commander PRO (100500A2040B1817) Fan #3"
+        },
+        "SelectedCommandStepDown": 8.0,
+        "SelectedCommandStepUp": 8.0,
+        "SelectedFanCurve": {
+          "CommandMode": 0,
+          "IgnoreHysteresisAtLimits": true,
+          "IsHidden": false,
+          "MaximumCommand": 100,
+          "MaximumTemperature": 90.0,
+          "MinimumTemperature": 20.0,
+          "Name": "Push-Konfiguration",
+          "OneWayHysteresis": false,
+          "Points": [
+            "30,25",
+            "45,40",
+            "60,55",
+            "75,75",
+            "90,100"
+          ],
+          "SelectedHysteresis": 3.0,
+          "SelectedResponseTime": 3,
+          "SelectedTempSource": {
+            "Identifier": "Mix/Average: CPU + GPU",
+            "IsHidden": false,
+            "Name": "Average: CPU + GPU",
+            "SelectedMixFunction": 0,
+            "SelectedSensors": [
+              {
+                "Identifier": "/amdcpu/0/temperature/0",
+                "IsHidden": false,
+                "Name": "Core (Tctl)",
+                "NickName": "Core (Tctl)"
+              },
+              {
+                "Identifier": "ADLX/AMD Radeon RX 6600/3328/temp/GPU",
+                "IsHidden": false,
+                "Name": "GPU",
+                "NickName": "GPU"
+              }
+            ]
+          }
+        },
+        "SelectedOffset": 0,
+        "SelectedStart": 9,
+        "SelectedStop": 6
+      },
+      {
+        "Calibration": [
+          [
+            0,
+            0
+          ],
+          [
+            40,
+            711
+          ],
+          [
+            50,
+            799
+          ],
+          [
+            60,
+            906
+          ],
+          [
+            70,
+            996
+          ],
+          [
+            80,
+            1084
+          ],
+          [
+            90,
+            1169
+          ],
+          [
+            100,
+            1244
+          ]
+        ],
+        "Enable": true,
+        "ForceApply": false,
+        "Identifier": "CorsairLink/CorsairLink/\\\\?\\hid#vid_1b1c&pid_0c10#7&36184bfb&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}/SpeedController/3",
+        "IsHidden": false,
+        "ManualControl": false,
+        "ManualControlValue": 50,
+        "MinimumPercent": 0,
+        "Name": "Commander PRO (100500A2040B1817) Fan #4",
+        "NickName": "Top Fan #2",
+        "PairedFanSensor": {
+          "Identifier": "CorsairLink/CorsairLink/\\\\?\\hid#vid_1b1c&pid_0c10#7&36184bfb&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}/SpeedSensor/3",
+          "IsHidden": false,
+          "Name": "Commander PRO (100500A2040B1817) Fan #4",
+          "NickName": "Commander PRO (100500A2040B1817) Fan #4"
+        },
+        "SelectedCommandStepDown": 8.0,
+        "SelectedCommandStepUp": 8.0,
+        "SelectedFanCurve": {
+          "CommandMode": 0,
+          "IgnoreHysteresisAtLimits": true,
+          "IsHidden": false,
+          "MaximumCommand": 100,
+          "MaximumTemperature": 90.0,
+          "MinimumTemperature": 20.0,
+          "Name": "Push-Konfiguration",
+          "OneWayHysteresis": false,
+          "Points": [
+            "30,25",
+            "45,40",
+            "60,55",
+            "75,75",
+            "90,100"
+          ],
+          "SelectedHysteresis": 3.0,
+          "SelectedResponseTime": 3,
+          "SelectedTempSource": {
+            "Identifier": "Mix/Average: CPU + GPU",
+            "IsHidden": false,
+            "Name": "Average: CPU + GPU",
+            "SelectedMixFunction": 0,
+            "SelectedSensors": [
+              {
+                "Identifier": "/amdcpu/0/temperature/0",
+                "IsHidden": false,
+                "Name": "Core (Tctl)",
+                "NickName": "Core (Tctl)"
+              },
+              {
+                "Identifier": "ADLX/AMD Radeon RX 6600/3328/temp/GPU",
+                "IsHidden": false,
+                "Name": "GPU",
+                "NickName": "GPU"
+              }
+            ]
+          }
+        },
+        "SelectedOffset": 0,
+        "SelectedStart": 9,
+        "SelectedStop": 6
+      },
+      {
+        "Calibration": [],
+        "Enable": false,
+        "ForceApply": false,
+        "Identifier": "CorsairLink/CorsairLink/\\\\?\\hid#vid_1b1c&pid_0c10#7&36184bfb&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}/SpeedController/4",
+        "IsHidden": true,
+        "ManualControl": false,
+        "ManualControlValue": 50,
+        "MinimumPercent": 0,
+        "Name": "Commander PRO (100500A2040B1817) Fan #5",
+        "NickName": "Commander PRO (100500A2040B1817) Fan #5",
+        "PairedFanSensor": null,
+        "SelectedCommandStepDown": 8.0,
+        "SelectedCommandStepUp": 8.0,
+        "SelectedFanCurve": null,
+        "SelectedOffset": 0,
+        "SelectedStart": 0,
+        "SelectedStop": 0
+      },
+      {
+        "Calibration": [],
+        "Enable": false,
+        "ForceApply": false,
+        "Identifier": "CorsairLink/CorsairLink/\\\\?\\hid#vid_1b1c&pid_0c10#7&36184bfb&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}/SpeedController/5",
+        "IsHidden": true,
+        "ManualControl": false,
+        "ManualControlValue": 50,
+        "MinimumPercent": 0,
+        "Name": "Commander PRO (100500A2040B1817) Fan #6",
+        "NickName": "Commander PRO (100500A2040B1817) Fan #6",
+        "PairedFanSensor": null,
+        "SelectedCommandStepDown": 8.0,
+        "SelectedCommandStepUp": 8.0,
+        "SelectedFanCurve": null,
+        "SelectedOffset": 0,
+        "SelectedStart": 0,
+        "SelectedStop": 0
+      },
+      {
+        "Calibration": null,
+        "Enable": false,
+        "ForceApply": false,
+        "Identifier": "/lpc/nct6798d/control/0",
+        "IsHidden": true,
+        "ManualControl": false,
+        "ManualControlValue": 50,
+        "MinimumPercent": 0,
+        "Name": "Fan #1",
+        "NickName": "Fan #1",
+        "PairedFanSensor": null,
+        "SelectedCommandStepDown": 8.0,
+        "SelectedCommandStepUp": 8.0,
+        "SelectedFanCurve": null,
+        "SelectedOffset": 0,
+        "SelectedStart": 0,
+        "SelectedStop": 0
+      },
+      {
+        "Calibration": null,
+        "Enable": false,
+        "ForceApply": false,
+        "Identifier": "/lpc/nct6798d/control/2",
+        "IsHidden": true,
+        "ManualControl": false,
+        "ManualControlValue": 50,
+        "MinimumPercent": 0,
+        "Name": "Fan #3",
+        "NickName": "Fan #3",
+        "PairedFanSensor": null,
+        "SelectedCommandStepDown": 8.0,
+        "SelectedCommandStepUp": 8.0,
+        "SelectedFanCurve": null,
+        "SelectedOffset": 0,
+        "SelectedStart": 0,
+        "SelectedStop": 0
+      },
+      {
+        "Calibration": null,
+        "Enable": false,
+        "ForceApply": false,
+        "Identifier": "/lpc/nct6798d/control/3",
+        "IsHidden": true,
+        "ManualControl": false,
+        "ManualControlValue": 50,
+        "MinimumPercent": 0,
+        "Name": "Fan #4",
+        "NickName": "Fan #4",
+        "PairedFanSensor": null,
+        "SelectedCommandStepDown": 8.0,
+        "SelectedCommandStepUp": 8.0,
+        "SelectedFanCurve": null,
+        "SelectedOffset": 0,
+        "SelectedStart": 0,
+        "SelectedStop": 0
+      },
+      {
+        "Calibration": null,
+        "Enable": false,
+        "ForceApply": false,
+        "Identifier": "/lpc/nct6798d/control/4",
+        "IsHidden": true,
+        "ManualControl": false,
+        "ManualControlValue": 50,
+        "MinimumPercent": 0,
+        "Name": "Fan #5",
+        "NickName": "Fan #5",
+        "PairedFanSensor": null,
+        "SelectedCommandStepDown": 8.0,
+        "SelectedCommandStepUp": 8.0,
+        "SelectedFanCurve": null,
+        "SelectedOffset": 0,
+        "SelectedStart": 0,
+        "SelectedStop": 0
+      },
+      {
+        "Calibration": null,
+        "Enable": false,
+        "ForceApply": false,
+        "Identifier": "/lpc/nct6798d/control/5",
+        "IsHidden": true,
+        "ManualControl": false,
+        "ManualControlValue": 50,
+        "MinimumPercent": 0,
+        "Name": "Fan #6",
+        "NickName": "Fan #6",
+        "PairedFanSensor": null,
+        "SelectedCommandStepDown": 8.0,
+        "SelectedCommandStepUp": 8.0,
+        "SelectedFanCurve": null,
+        "SelectedOffset": 0,
+        "SelectedStart": 0,
+        "SelectedStop": 0
+      },
+      {
+        "Calibration": null,
+        "Enable": false,
+        "ForceApply": false,
+        "Identifier": "/lpc/nct6798d/control/6",
+        "IsHidden": true,
+        "ManualControl": false,
+        "ManualControlValue": 50,
+        "MinimumPercent": 0,
+        "Name": "Fan #7",
+        "NickName": "Fan #7",
+        "PairedFanSensor": null,
+        "SelectedCommandStepDown": 8.0,
+        "SelectedCommandStepUp": 8.0,
+        "SelectedFanCurve": null,
+        "SelectedOffset": 0,
+        "SelectedStart": 0,
+        "SelectedStop": 0
+      }
+    ],
+    "CustomSensors": [
+      {
+        "Identifier": "Mix/Average: CPU + GPU",
+        "IsHidden": false,
+        "Name": "Average: CPU + GPU",
+        "SelectedMixFunction": 0,
+        "SelectedSensors": [
+          {
+            "Identifier": "/amdcpu/0/temperature/0",
+            "IsHidden": false,
+            "Name": "Core (Tctl)",
+            "NickName": "Core (Tctl)"
+          },
+          {
+            "Identifier": "ADLX/AMD Radeon RX 6600/3328/temp/GPU",
+            "IsHidden": false,
+            "Name": "GPU",
+            "NickName": "GPU"
+          }
+        ]
+      }
+    ],
+    "Fahrenheit": false,
+    "FanCurves": [
+      {
+        "CommandMode": 0,
+        "IgnoreHysteresisAtLimits": true,
+        "IsHidden": false,
+        "MaximumCommand": 100,
+        "MaximumTemperature": 90.0,
+        "MinimumTemperature": 20.0,
+        "Name": "CPU-Kühler",
+        "OneWayHysteresis": false,
+        "Points": [
+          "35,20",
+          "50,40",
+          "65,60",
+          "80,80",
+          "90,100"
+        ],
+        "SelectedHysteresis": 2.0,
+        "SelectedResponseTime": 1,
+        "SelectedTempSource": {
+          "Identifier": "Mix/Average: CPU + GPU",
+          "IsHidden": false,
+          "Name": "Average: CPU + GPU",
+          "SelectedMixFunction": 0,
+          "SelectedSensors": [
+            {
+              "Identifier": "/amdcpu/0/temperature/0",
+              "IsHidden": false,
+              "Name": "Core (Tctl)",
+              "NickName": "Core (Tctl)"
+            },
+            {
+              "Identifier": "ADLX/AMD Radeon RX 6600/3328/temp/GPU",
+              "IsHidden": false,
+              "Name": "GPU",
+              "NickName": "GPU"
+            }
+          ]
+        }
+      },
+      {
+        "CommandMode": 0,
+        "IgnoreHysteresisAtLimits": true,
+        "IsHidden": false,
+        "MaximumCommand": 100,
+        "MaximumTemperature": 90.0,
+        "MinimumTemperature": 20.0,
+        "Name": "Pull-Konfiguration",
+        "OneWayHysteresis": false,
+        "Points": [
+          "30,30",
+          "45,40",
+          "60,60",
+          "75,80",
+          "90,100"
+        ],
+        "SelectedHysteresis": 3.0,
+        "SelectedResponseTime": 3,
+        "SelectedTempSource": {
+          "Identifier": "Mix/Average: CPU + GPU",
+          "IsHidden": false,
+          "Name": "Average: CPU + GPU",
+          "SelectedMixFunction": 0,
+          "SelectedSensors": [
+            {
+              "Identifier": "/amdcpu/0/temperature/0",
+              "IsHidden": false,
+              "Name": "Core (Tctl)",
+              "NickName": "Core (Tctl)"
+            },
+            {
+              "Identifier": "ADLX/AMD Radeon RX 6600/3328/temp/GPU",
+              "IsHidden": false,
+              "Name": "GPU",
+              "NickName": "GPU"
+            }
+          ]
+        }
+      },
+      {
+        "CommandMode": 0,
+        "IgnoreHysteresisAtLimits": true,
+        "IsHidden": false,
+        "MaximumCommand": 100,
+        "MaximumTemperature": 90.0,
+        "MinimumTemperature": 20.0,
+        "Name": "Push-Konfiguration",
+        "OneWayHysteresis": false,
+        "Points": [
+          "30,25",
+          "45,40",
+          "60,55",
+          "75,75",
+          "90,100"
+        ],
+        "SelectedHysteresis": 3.0,
+        "SelectedResponseTime": 3,
+        "SelectedTempSource": {
+          "Identifier": "Mix/Average: CPU + GPU",
+          "IsHidden": false,
+          "Name": "Average: CPU + GPU",
+          "SelectedMixFunction": 0,
+          "SelectedSensors": [
+            {
+              "Identifier": "/amdcpu/0/temperature/0",
+              "IsHidden": false,
+              "Name": "Core (Tctl)",
+              "NickName": "Core (Tctl)"
+            },
+            {
+              "Identifier": "ADLX/AMD Radeon RX 6600/3328/temp/GPU",
+              "IsHidden": false,
+              "Name": "GPU",
+              "NickName": "GPU"
+            }
+          ]
+        }
+      }
+    ],
+    "FanSensors": [
+      {
+        "Identifier": "ADLX/AMD Radeon RX 6600/3328/fan",
+        "IsHidden": false,
+        "Name": "Fan 1 - AMD Radeon RX 6600",
+        "NickName": "Fan 1 - AMD Radeon RX 6600"
+      },
+      {
+        "Identifier": "CorsairLink/CorsairLink/\\\\?\\hid#vid_1b1c&pid_0c10#7&36184bfb&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}/SpeedSensor/0",
+        "IsHidden": false,
+        "Name": "Commander PRO (100500A2040B1817) Fan #1",
+        "NickName": "Commander PRO (100500A2040B1817) Fan #1"
+      },
+      {
+        "Identifier": "CorsairLink/CorsairLink/\\\\?\\hid#vid_1b1c&pid_0c10#7&36184bfb&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}/SpeedSensor/1",
+        "IsHidden": false,
+        "Name": "Commander PRO (100500A2040B1817) Fan #2",
+        "NickName": "Commander PRO (100500A2040B1817) Fan #2"
+      },
+      {
+        "Identifier": "CorsairLink/CorsairLink/\\\\?\\hid#vid_1b1c&pid_0c10#7&36184bfb&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}/SpeedSensor/2",
+        "IsHidden": false,
+        "Name": "Commander PRO (100500A2040B1817) Fan #3",
+        "NickName": "Commander PRO (100500A2040B1817) Fan #3"
+      },
+      {
+        "Identifier": "CorsairLink/CorsairLink/\\\\?\\hid#vid_1b1c&pid_0c10#7&36184bfb&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}/SpeedSensor/3",
+        "IsHidden": false,
+        "Name": "Commander PRO (100500A2040B1817) Fan #4",
+        "NickName": "Commander PRO (100500A2040B1817) Fan #4"
+      },
+      {
+        "Identifier": "CorsairLink/CorsairLink/\\\\?\\hid#vid_1b1c&pid_0c10#7&36184bfb&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}/SpeedSensor/4",
+        "IsHidden": false,
+        "Name": "Commander PRO (100500A2040B1817) Fan #5",
+        "NickName": "Commander PRO (100500A2040B1817) Fan #5"
+      },
+      {
+        "Identifier": "CorsairLink/CorsairLink/\\\\?\\hid#vid_1b1c&pid_0c10#7&36184bfb&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}/SpeedSensor/5",
+        "IsHidden": false,
+        "Name": "Commander PRO (100500A2040B1817) Fan #6",
+        "NickName": "Commander PRO (100500A2040B1817) Fan #6"
+      },
+      {
+        "Identifier": "/lpc/nct6798d/fan/0",
+        "IsHidden": false,
+        "Name": "Fan #1",
+        "NickName": "Fan #1"
+      },
+      {
+        "Identifier": "/lpc/nct6798d/fan/1",
+        "IsHidden": false,
+        "Name": "Fan #2",
+        "NickName": "Fan #2"
+      },
+      {
+        "Identifier": "/lpc/nct6798d/fan/2",
+        "IsHidden": false,
+        "Name": "Fan #3",
+        "NickName": "Fan #3"
+      },
+      {
+        "Identifier": "/lpc/nct6798d/fan/3",
+        "IsHidden": false,
+        "Name": "Fan #4",
+        "NickName": "Fan #4"
+      },
+      {
+        "Identifier": "/lpc/nct6798d/fan/4",
+        "IsHidden": false,
+        "Name": "Fan #5",
+        "NickName": "Fan #5"
+      },
+      {
+        "Identifier": "/lpc/nct6798d/fan/5",
+        "IsHidden": false,
+        "Name": "Fan #6",
+        "NickName": "Fan #6"
+      },
+      {
+        "Identifier": "/lpc/nct6798d/fan/6",
+        "IsHidden": false,
+        "Name": "Fan #7",
+        "NickName": "Fan #7"
+      }
+    ],
+    "HideCalibration": false,
+    "HideFanSpeedCards": true,
+    "HorizontalUIOrientation": false,
+    "PrimaryColor": "#FF18A7EB",
+    "SecondaryColor": "#FFF3F3F3",
+    "SelectedTheme": "",
+    "ShowHiddenCards": false,
+    "SyncThemeWithWindows": true,
+    "SyncTrayIconColorWithWindows": true,
+    "TemperatureSensors": [],
+    "TrayIconColor": null,
+    "TrayIcons": []
+  },
+  "Sensors": {
+    "AdlxWrapperSettings": {
+      "Enabled": true
+    },
+    "DisabledPlugins": [],
+    "DisableStorageSensors": true,
+    "LibreHardwareMonitorSettings": {
+      "Controller": false,
+      "CPU": true,
+      "EmbeddedEC": false,
+      "GPU": true,
+      "InpOut": false,
+      "Memory": false,
+      "Motherboard": true,
+      "PSU": false,
+      "Storage": false,
+      "ZeroRPMOverride": false
+    },
+    "NvAPIWrapperSettings": {
+      "Enabled": false,
+      "ZeroRPMOverride": false
+    },
+    "SensorCount": 42
+  }
+}
