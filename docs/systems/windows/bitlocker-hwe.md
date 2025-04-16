@@ -7,7 +7,8 @@
 - Install [Samsung Magician](https://semiconductor.samsung.com/consumer-storage/support/tools/)
 - Complete the following steps in the software:
   - Enable "Encrypted Drive"
-  - *If the drive shows "enabled" or "ready to enable" already, a secure erase is needed*
+  - *If the drive shows "enabled" or "ready to enable" already, a secure erase is needed* (like in the next step)
+- Now you have to "Secure Erase" the drive. This is possible via the bios or the Samsung Secure Erase (found in the Magician App)
 - The hardware encryption is now ready to be activated!
 
 ## 2. Windows installation
@@ -16,7 +17,7 @@
 - On the next boot, a POST screen will alert you. "A Configuration Change was requested issuing a Block SID command". Simply accept this notice, and proceed.
 
 ## 3. After installation
-- Check status of encrypted drive in [Samsung Magician](https://semiconductor.samsung.com/consumer-storage/support/tools/)
+- Check status of encrypted drive in [Samsung Magician](https://semiconductor.samsung.com/consumer-storage/support/tools/); should be **activated**
 - After the successful installation of Windows BitLocker has to be forced to make use of hardware encryption via group policy.
   - Open "Group Policies"
   - `Computer configuration > Administrative Templates > Windows Components > BitLocker > System Drive > Administrative Configure Use of Hardware-Based Encryption for Fixed Data Drives`
