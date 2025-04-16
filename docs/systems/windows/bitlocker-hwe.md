@@ -16,6 +16,7 @@
 - On the next boot, a POST screen will alert you. "A Configuration Change was requested issuing a Block SID command". Simply accept this notice, and proceed.
 
 ## 3. After installation
+- Check status of encrypted drive in [Samsung Magician](https://semiconductor.samsung.com/consumer-storage/support/tools/)
 - After the successful installation of Windows BitLocker has to be forced to make use of hardware encryption via group policy.
   - Open "Group Policies"
   - `Computer configuration > Administrative Templates > Windows Components > BitLocker > System Drive > Administrative Configure Use of Hardware-Based Encryption for Fixed Data Drives`
