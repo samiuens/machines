@@ -32,5 +32,4 @@ winget install --id=Yubico.Authenticator -e
 
 # hardware
 winget install --id=Logitech.GHUB -e
-winget install --id=Corsair.iCUE.5 -e
 winget install --id=REALiX.HWiNFO -e
