@@ -30,6 +30,7 @@ _:
   "gitkraken"
   "docker"
   "dbeaver-community"
+  "arduino-ide"
 
   # security
   "1password"
