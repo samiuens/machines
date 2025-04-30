@@ -18,6 +18,7 @@ winget install --id=VideoLAN.VLC -e
 # dev
 winget install --id=Microsoft.WindowsTerminal -e
 winget install --id=Microsoft.VisualStudioCode -e
+winget install --id=AxoSoft.GitKraken -e
 
 # utils
 winget install --id=Safing.Portmaster -e
