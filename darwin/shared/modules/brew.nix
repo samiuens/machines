@@ -5,7 +5,7 @@
     enable = true;
     onActivation = {
       autoUpdate = true;
-      upgrade = false;
+      upgrade = true;
       cleanup = "zap";
     };
     taps = [
@@ -13,11 +13,8 @@
     ];
     brews = [
       "openssh"
-      "mas"
       "docker-compose"
       "mkcert"
-      "nss" # certutil, required for firefox
-      "flyctl"
     ];
     casks = pkgs.callPackage ../casks.nix {};
     masApps = {
