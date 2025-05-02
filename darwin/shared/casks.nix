@@ -2,34 +2,33 @@ _:
 
 [
   # coordination
-  "fantastical"
   "notion"
+  "notion-calendar"
   "google-drive"
 
   # communication
-  "ferdium"
-  "proton-mail-bridge"
+  "microsoft-outlook"
+  "signal"
 
   # create
   "microsoft-word"
   "microsoft-excel"
   "microsoft-powerpoint"
-  "microsoft-outlook"
   "obsidian"
-  "remnote"
   "cleanshot"
   "anki"
 
-  # consume
+  # consume 
   "arc"
-  "firefox"
+  "figma"
+  "google-chrome"
 
   # development
+  "cursor"
   "postman"
   "termius"
   "gitkraken"
   "docker"
-  "dbeaver-community"
   "arduino-ide"
 
   # security
@@ -38,11 +37,6 @@ _:
   "yubico-authenticator"
   "keepassxc"
   "cryptomator"
-
-  # business
-  "google-chrome"
-  "signal"
-  "figma"
 
   # wm
   "aerospace"
