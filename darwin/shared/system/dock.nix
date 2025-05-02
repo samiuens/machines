@@ -12,13 +12,10 @@
       wvous-br-corner = 1;
       wvous-tl-corner = 1;
       wvous-tr-corner = 1;
-      orientation = "left";
+      orientation = "bottom";
       persistent-apps = [
         "/Applications/Arc.app"
-        "/Applications/Things3.app"
         "/Applications/Obsidian.app"
-        "/Applications/Anki.app"
-        "/Applications/Notion.app"
       ];
       persistent-others = [];
     };
