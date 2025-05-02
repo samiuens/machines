@@ -102,12 +102,20 @@ cmd-shift-2 = ['move-node-to-workspace 2', 'workspace 2']
 cmd-shift-3 = ['move-node-to-workspace 3', 'workspace 3']
 cmd-shift-4 = ['move-node-to-workspace 4', 'workspace 4']
 cmd-shift-5 = ['move-node-to-workspace 5', 'workspace 5']
+cmd-shift-6 = ['move-node-to-workspace 6', 'workspace 6']
+cmd-shift-7 = ['move-node-to-workspace 7', 'workspace 7']
+cmd-shift-8 = ['move-node-to-workspace 8', 'workspace 8']
+cmd-shift-9 = ['move-node-to-workspace 9', 'workspace 9']
 
 cmd-ctrl-alt-shift-1 = 'workspace 1'
 cmd-ctrl-alt-shift-2 = 'workspace 2'
 cmd-ctrl-alt-shift-3 = 'workspace 3'
 cmd-ctrl-alt-shift-4 = 'workspace 4'
 cmd-ctrl-alt-shift-5 = 'workspace 5'
+cmd-ctrl-alt-shift-6 = 'workspace 6'
+cmd-ctrl-alt-shift-7 = 'workspace 7'
+cmd-ctrl-alt-shift-8 = 'workspace 8'
+cmd-ctrl-alt-shift-9 = 'workspace 9'
 
 cmd-ctrl-alt-shift-s = 'mode service'
 
@@ -116,7 +124,3 @@ esc = ['flatten-workspace-tree', 'mode main']
 r = ['reload-config', 'mode main']
 comma = 'layout tiles horizontal vertical'
 period = 'layout accordion horizontal vertical'
-
-[[on-window-detected]]
-if.app-id="com.mitchellh.ghostty"
-run = 'layout tiling'
