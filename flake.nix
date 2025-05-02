@@ -2,9 +2,7 @@
   description = "samiarda's machine configuration";
 
   inputs = {
-    determinate.url = "https://flakehub.com/f/DeterminateSystems/determinate/0.1";
-    fh.url = "https://flakehub.com/f/DeterminateSystems/fh/0";
-    nixpkgs.url = "https://flakehub.com/f/NixOS/nixpkgs/0.1.0.tar.gz";
+    nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-24.11-darwin";
     darwin = {
       url = "github:LnL7/nix-darwin/master";
       inputs.nixpkgs.follows = "nixpkgs";
@@ -20,7 +18,7 @@
     };
   };
 
-  outputs = inputs@{ self, determinate, fh, nixpkgs, darwin, brew, home-manager, nixvim }: {
+  outputs = inputs@{ self, nixpkgs, darwin, brew, home-manager, nixvim }: {
     darwinConfigurations = {
       "kaya" = darwin.lib.darwinSystem {
         specialArgs =
