@@ -3,9 +3,9 @@
 with pkgs; [
   # ides
   jetbrains.idea-ultimate
-  jetbrains.pycharm-professional
+  # jetbrains.pycharm-professional
   jetbrains.webstorm
-  jetbrains.goland
+  # jetbrains.goland
   jetbrains.datagrip
   vscode
 
@@ -20,7 +20,6 @@ with pkgs; [
   nest-cli
 
   # package managers
-  fh
   pnpm
 
   # terminal tools
