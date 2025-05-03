@@ -1,4 +1,4 @@
-{ config, inputs, hostname, username, platform, ... }: {
+{ config, inputs, hostname, username, workname, platform, ... }: {
   imports =
     [
       inputs.brew.darwinModules.nix-homebrew
