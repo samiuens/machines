@@ -3,6 +3,7 @@ _:
 [
   # coordination
   "notion"
+  "todoist"
   "notion-calendar"
   "google-drive"
 
