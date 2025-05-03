@@ -26,6 +26,7 @@
             inherit inputs;
             hostname = "kaya";
             username = "samiuensay";
+            workname = "samiarda";
             platform = "aarch64-darwin";
           };
         modules = [
