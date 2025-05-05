@@ -18,6 +18,7 @@ _:
   "obsidian"
   "cleanshot"
   "anki"
+  "pdf-expert"
 
   # consume 
   "arc"
