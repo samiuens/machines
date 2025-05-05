@@ -4,6 +4,7 @@
       ../../apps/aerospace
       ../../apps/karabiner.nix
       ../../apps/kitty.nix
+      ../../apps/linearmouse.nix
       ../../apps/ssh.nix
       ../shared/shell.nix
     ];
