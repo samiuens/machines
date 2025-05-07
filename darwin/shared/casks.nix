@@ -30,7 +30,7 @@ _:
   "postman"
   "termius"
   "gitkraken"
-  "docker"
+  "orbstack"
   "arduino-ide"
 
   # security

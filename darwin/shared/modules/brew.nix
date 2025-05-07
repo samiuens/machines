@@ -13,7 +13,6 @@
     ];
     brews = [
       "openssh"
-      "docker-compose"
       "mkcert"
     ];
     casks = pkgs.callPackage ../casks.nix {};
