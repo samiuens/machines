@@ -6,6 +6,7 @@
       ../../apps/kitty.nix
       ../../apps/linearmouse.nix
       ../../apps/ssh.nix
+      ../shared/git.nix
       ../shared/shell.nix
     ];
 
