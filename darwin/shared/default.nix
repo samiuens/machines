@@ -18,6 +18,7 @@
       ./system/dock.nix
       ./system/finder.nix
       ./system/input.nix
+      ./system/loginwindow.nix
       ./system/networking.nix
       ./system/security.nix
     ];
