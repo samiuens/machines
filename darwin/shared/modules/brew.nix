@@ -12,6 +12,7 @@
       "nikitabobko/tap"
     ];
     brews = [
+      "mas"
       "openssh"
       "mkcert"
     ];
@@ -19,7 +20,6 @@
     masApps = {
       "iFinance 5" = 1500241909;
       "Amphetamine" = 937984704;
-      "Velja" = 1607635845;
       "Bitwarden" = 1352778147;
     };
   };
