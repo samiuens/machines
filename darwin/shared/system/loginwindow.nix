@@ -1,6 +1,6 @@
 { ... }: {
   system.defaults.loginwindow = {
     GuestEnabled = false;
-    SHOWFULLNAME = true;
+    DisableConsoleAccess = true;
   };
 }
