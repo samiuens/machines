@@ -1,8 +1,6 @@
 { ... }: {
   imports =
     [
-      ./apps/nixvim.nix
-
       ./modules/brew.nix
       ./modules/fonts.nix
       ./modules/hm.nix
@@ -10,7 +8,7 @@
       ./modules/time.nix
       ./modules/users.nix
 
-      ./overlays
+      #./overlays
 
       ./system/appearance.nix
       ./system/custom.nix
