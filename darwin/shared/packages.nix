@@ -10,7 +10,7 @@ with pkgs; [
   vscode
 
   # developer frameworks
-  nodejs_23
+  nodejs_24
   zulu23
   typescript
 
