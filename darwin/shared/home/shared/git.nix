@@ -4,7 +4,7 @@
     extraConfig = {
       init.defaultBranch = "main";
       safe = {
-        directory = "~/machines";
+        directory = "/Users/Shared/machines";
       };
     };
   };
