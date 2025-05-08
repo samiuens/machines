@@ -8,7 +8,7 @@
       history.size = 10000;
 
       shellAliases = {
-        config = "cd /Users/Shared/machines && ./run.sh $1";
+        config = "cd ~/machines && ./run.sh $1";
         dev = "cd ~/Developer";
       };
       oh-my-zsh = {
