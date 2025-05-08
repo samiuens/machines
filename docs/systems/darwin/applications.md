@@ -1,27 +1,6 @@
-# 📲 Mac applications
+# 📲 Applications
 
-- All applications are automatically installed with homebrew and nix packages.
+- All applications are automatically installed with [homebrew](https://github.com/samiuens/machines/blob/master/darwin/shared/casks.nix) and [nix packages](https://github.com/samiuens/machines/blob/master/darwin/shared/packages.nix).
 
-## 🖋️ Productivity
-
-- [ ] **1Password:** Login into personal vault
-- [ ] **Bitwarden:** Login into business vault
-- [ ] **Firefox:** Join sync
-- [ ] **Google Chrome:** Add work profiles
-- [ ] **NextCloud:** Login and start folder sync
-- [ ] **Obsidian:** Vault synchronization
-- [ ] **Fantastical:** Add accounts _(webdav + google)_
-- [ ] **RemNote:** Login into account and sync
-
-## 👨‍💻 Development
-
-- [ ] **Visual Studio Code:** Login into settings sync
-- [ ] **GitKraken:** Add personal and business profile
-
-## 📢 System
-
-- [ ] **Raycast:** Load [config](https://github.com/samiuens/machines/blob/master/configs/raycast/raycast.rayconfig)
-- [ ] **AlDente:** Activate license
-- [ ] **CleanShot:** Activate license
-- [ ] **LinearMouse:** Disable mouse acceleration
-- [ ] **Karabiner Elements:** Grant permissions
+1. [Personal](https://github.com/samiuens/machines/blob/master/docs/systems/darwin/applications/personal.md)
+2. [Business](https://github.com/samiuens/machines/blob/master/docs/systems/darwin/applications/business.md)
