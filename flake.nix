@@ -12,13 +12,9 @@
       url = "github:nix-community/home-manager";
       inputs.nixpkgs.follows = "nixpkgs";
     };
-    nixvim = {
-      url = "github:nix-community/nixvim";
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
   };
 
-  outputs = inputs@{ self, nixpkgs, darwin, brew, home-manager, nixvim }: {
+  outputs = inputs@{ self, nixpkgs, darwin, brew, home-manager }: {
     darwinConfigurations = {
       "kaya" = darwin.lib.darwinSystem {
         specialArgs =
