@@ -17,7 +17,7 @@
 
 ## 🛬 Provision Process
 
-- download [this repo](https://github.com/samiuens/machines)
-- make `run.sh` executable
-- run it with `provision`, followed with the wanted hostname _(darwin + linux only!)_
-- look into the os specific guide for the following steps
+- Pull [this repo](https://github.com/samiuens/machines) to all needed users
+- Make `run.sh` executable
+- Run it with `provision`, followed with the wanted hostname _(darwin + linux only!)_
+- Look into the os specific guide for the following steps

@@ -4,59 +4,60 @@
 
 ### Network
 
-- activate: firewall
-  - enable: "stealth mode"
-- create [nextdns profile](https://apple.nextdns.io/)
+- Activate: firewall with "Stealth Mode"
+- Create [NextDNS Profile](https://apple.nextdns.io/)
 
 ### Battery
 
-- disable: optimized battery charging
-- disable: dimming display on battery
+- Disable optimized battery charging
+- Disable dimming display on battery
 
 ### Display
 
-- enable: "more space" on internal display
-- enable: night shift between 19:00 – 6:15 (on highest color temperature)
+- Enable "More Space"-Mode on internal display
+- Enable "Night Shift" between 20:00 – 6:15 (on highest color temperature)
 
 ### Notifications
 
-- disable: unneccasary apps
+- Disable unnecessary apps
 
 ### Lock Screen
 
-- screen saver: never
-- turn off display, on battery: 2 minutes
-- turn off display, on power adapter: 3 minutes
-- require password: immediately
+- Screen saver: never
+- Turn off display, on battery: 2 minutes
+- Turn off display, on power adapter: 3 minutes
+- Require password: immediately
 
 ### Privacy & Security
 
-- enable: filevault
-- enable: require admin password for systemwide settings
+- Enable FileVault
+- Require admin password for systemwide settings
 
 ### Touch ID & Password
 
-- add: touch id for finger twice
+- Add Touch ID for fingerprint twice
 
 ### Keyboard
 
-- disable: all keyboard shortcuts (except: spotlight, finder search & mission control)
+- Disable all keyboard shortcuts (except: spotlight, finder search & mission control)
 
 ### Printers & Scanners
 
-- add: both printers in house
+- Add needed printers
 
 ### Finder
 
-- delete: all tags
-- sort sidebar:
+- Delete all tags
+- Sort sidebar:
   - Applications
   - Documents
-  - "Nextcloud"
+  - **"cloud"**
   - Desktop
+  - **"Developer"**
   - Downloads
-  - "Code"
   - Home
+  ***
+  - iCloud Drive
   ***
   - My mac
   - Hard & external disks
