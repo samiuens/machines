@@ -12,7 +12,7 @@
 
 ## 📢 System
 
-- [ ] **Raycast:** Load [config](https://github.com/samiuens/machines/blob/master/configs/raycast/business.rayconfig)
+- [ ] **Raycast:** Load [config](https://github.com/samiuens/machines/blob/master/configs/raycast/work.rayconfig)
 - [ ] **LinearMouse:** Start on boot
 - [ ] **Karabiner Elements:** Grant permissions
 - [ ] **Ice Menubar:** Configure like in this screenshot
