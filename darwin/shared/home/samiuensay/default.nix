@@ -2,6 +2,7 @@
   imports =
     [
       ../../apps/aerospace
+      ../../apps/sketchybar
       ../../apps/karabiner.nix
       ../../apps/kitty.nix
       ../../apps/linearmouse.nix
