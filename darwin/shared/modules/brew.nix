@@ -10,11 +10,13 @@
     };
     taps = [
       "nikitabobko/tap"
+      "FelixKratz/formulae"
     ];
     brews = [
       "mas"
       "openssh"
       "mkcert"
+      "sketchybar"
     ];
     casks = pkgs.callPackage ../casks.nix {};
     masApps = {
