@@ -16,7 +16,10 @@
       "mas"
       "openssh"
       "mkcert"
-      "sketchybar"
+      {
+        name = "sketchybar";
+        restart_service = true;
+      }
     ];
     casks = pkgs.callPackage ../casks.nix {};
     masApps = {
