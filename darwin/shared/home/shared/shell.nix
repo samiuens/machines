@@ -5,6 +5,9 @@
       enableCompletion = true;
       autosuggestion.enable = true;
       syntaxHighlighting.enable = true;
+      initExtra = ''
+        ZSH_DISABLE_COMPFIX="true"
+      '';
       history.size = 10000;
 
       shellAliases = {
