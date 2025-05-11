@@ -22,3 +22,4 @@
 - [ ] **LinearMouse:** Start on boot
 - [ ] **Karabiner Elements:** Grant permissions
 - [ ] **Ice Menubar:** Configure like in this screenshot
+- [ ] **BetterDisplay:** Set main monitor as 'computer monitor' (to fix night vision)
