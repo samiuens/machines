@@ -19,6 +19,7 @@ _:
   "cleanshot"
   "anki"
   "pdf-expert"
+  "drawio"
 
   # consume 
   "arc"
