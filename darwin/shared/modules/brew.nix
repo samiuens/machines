@@ -20,6 +20,7 @@
       # }
       "openssh"
       "ykman"
+      "yubikey-agent"
       "age"
       "age-plugin-yubikey"
       "sops"
