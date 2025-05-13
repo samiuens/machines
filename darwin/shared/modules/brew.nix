@@ -22,6 +22,7 @@
       "ykman"
       "age"
       "age-plugin-yubikey"
+      "sops"
       "mkcert"
     ];
     casks = pkgs.callPackage ../casks.nix {};
