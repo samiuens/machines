@@ -20,6 +20,8 @@
       #   name = "sketchybar";
       #   restart_service = true;
       # }
+      "age"
+      "age-plugin-yubikey"
     ];
     casks = pkgs.callPackage ../casks.nix {};
     masApps = {
