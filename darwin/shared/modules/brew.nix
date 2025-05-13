@@ -18,11 +18,11 @@
       #   name = "sketchybar";
       #   restart_service = true;
       # }
+      "gpg"
       "openssh"
       "ykman"
       "yubikey-agent"
       "age"
-      "age-plugin-yubikey"
       "sops"
       "mkcert"
     ];
