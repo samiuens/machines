@@ -8,5 +8,5 @@
         "/Applications/GitKraken.app"
       ];
     };
-  }
+  };
 }

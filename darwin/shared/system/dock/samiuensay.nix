@@ -8,5 +8,5 @@
         "/Applications/Notion Calendar.app"
       ];
     };
-  }
+  };
 }

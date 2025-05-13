@@ -23,6 +23,7 @@
             hostname = "kaya";
             username = "samiuensay";
             workname = "samiarda";
+            currentUser = ( builtins.readFile ./user.txt );
             platform = "aarch64-darwin";
           };
         modules = [
