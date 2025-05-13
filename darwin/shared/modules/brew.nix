@@ -14,14 +14,15 @@
     ];
     brews = [
       "mas"
-      "openssh"
-      "mkcert"
       # {
       #   name = "sketchybar";
       #   restart_service = true;
       # }
+      "openssh"
+      "ykman"
       "age"
       "age-plugin-yubikey"
+      "mkcert"
     ];
     casks = pkgs.callPackage ../casks.nix {};
     masApps = {
