@@ -1,6 +1,9 @@
 { username, platform, lib, ... }: {
   nix = {
     enable = true;
+    extraOptions = ''
+      experimental-features = nix-command flakes
+    '';
     channel.enable = false;
     linux-builder.enable = true;
     settings.trusted-users = [ "@admin" ];
