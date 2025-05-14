@@ -9,6 +9,7 @@ _:
 
   # communication
   "microsoft-outlook"
+  "discord"
   "signal"
 
   # create
