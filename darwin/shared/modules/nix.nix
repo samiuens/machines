@@ -1,5 +1,6 @@
 { username, platform, lib, ... }: {
   nix = {
+    enable = true;
     channel.enable = false;
     linux-builder.enable = true;
     settings.trusted-users = [ "@admin" ];
