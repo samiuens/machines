@@ -54,4 +54,5 @@ _:
   "karabiner-elements"
   "pearcleaner"
   "raycast"
+  "balenaetcher"
 ]
