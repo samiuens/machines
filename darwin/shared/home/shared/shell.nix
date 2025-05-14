@@ -6,7 +6,7 @@
       autosuggestion.enable = true;
       syntaxHighlighting.enable = true;
       initContent = ''
-        ZSH_DISABLE_COMPFIX="true"
+        export GPG_TTY=$(tty)
       '';
       history.size = 10000;
 
