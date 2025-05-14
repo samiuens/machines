@@ -1,6 +1,9 @@
 { pkgs, ... }:
 
 with pkgs; [
+  # nix stuff
+  nixos-rebuild
+
   # ides
   # jetbrains.idea-ultimate
   # jetbrains.pycharm-professional

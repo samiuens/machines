@@ -5,7 +5,6 @@
       experimental-features = nix-command flakes
     '';
     channel.enable = false;
-    linux-builder.enable = true;
     settings.trusted-users = [ "@admin" ];
   };
   nixpkgs = {
