@@ -7,5 +7,6 @@
         user = "samiarda";
         identityFile = "~/.ssh/srv-prod-1-keychain";
       };
+    };
   };
 }
