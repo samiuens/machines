@@ -2,11 +2,11 @@
 
 with pkgs; [
   # ides
-  jetbrains.idea-ultimate
+  # jetbrains.idea-ultimate
   # jetbrains.pycharm-professional
-  jetbrains.webstorm
+  # jetbrains.webstorm
   # jetbrains.goland
-  jetbrains.datagrip
+  # jetbrains.datagrip
   vscode
 
   # developer frameworks
