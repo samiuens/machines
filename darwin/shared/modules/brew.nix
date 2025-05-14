@@ -20,6 +20,7 @@
       # }
       "pcsc-lite"
       "gpg"
+      "gnupg"
       "openssh"
       "ykman"
       "yubikey-agent"
