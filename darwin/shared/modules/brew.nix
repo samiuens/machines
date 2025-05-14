@@ -18,6 +18,7 @@
       #   name = "sketchybar";
       #   restart_service = true;
       # }
+      "pcsc-lite"
       "gpg"
       "openssh"
       "ykman"
