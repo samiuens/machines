@@ -1,7 +1,8 @@
 { username, platform, lib, ... }: {
   nix = {
-    enable = false;
     channel.enable = false;
+    linux-builder.enable = true;
+    settings.trusted-users = [ "@admin" ];
   };
   nixpkgs = {
     config.allowUnfree = true;
