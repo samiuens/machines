@@ -33,6 +33,7 @@ _:
   "termius"
   "gitkraken"
   "orbstack"
+  "beekeeper-studio"
   "arduino-ide"
 
   # security
