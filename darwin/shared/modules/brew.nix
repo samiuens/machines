@@ -28,6 +28,7 @@
       "sops"
       "mkcert"
       "awscli"
+      "podman"
     ];
     casks = pkgs.callPackage ../casks.nix {};
     masApps = {
