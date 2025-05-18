@@ -27,6 +27,7 @@
       "age"
       "sops"
       "mkcert"
+      "awscli"
     ];
     casks = pkgs.callPackage ../casks.nix {};
     masApps = {
