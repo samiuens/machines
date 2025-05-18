@@ -1,4 +1,4 @@
-{ username, workname, pkgs, ... }: {
+{ username, workname, pkgs, currentUser, ... }: {
   users.users = {
     "${username}" = {
       description = "Sami Arda Ünsay";
@@ -14,4 +14,5 @@
       shell = pkgs.zsh;
     };
   };
+  system.primaryUser = "${currentUser}";
 }
