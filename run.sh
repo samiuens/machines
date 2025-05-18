@@ -42,7 +42,7 @@ rebuild()
 
     os=$(get_os)
     if [ "$os" == "darwin" ]; then
-        darwin-rebuild $method --flake .#$hostname --show-trace
+        sudo darwin-rebuild $method --flake .#$hostname --show-trace
     else
         sudo nixos-rebuild --flake .#$hostname $method --show-trace
     fi
