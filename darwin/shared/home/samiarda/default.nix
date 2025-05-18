@@ -14,7 +14,7 @@
     username = "${workname}";
     homeDirectory = "/Users/${workname}";
     packages = pkgs.callPackage ../../packages.nix {};
-    stateVersion = "24.11";
+    stateVersion = "25.05";
   };
   programs.home-manager.enable = true;
 }
